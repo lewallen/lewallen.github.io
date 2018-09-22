@@ -354,7 +354,7 @@ footer .footer-below {
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
-    line-height: 45px;
+    line-height: 40px;
 }
 
 .btn:focus,
@@ -504,7 +504,7 @@ footer .footer-below {
     transition: all .3s ease-in-out;
 }
 
-.project.description{
+/*.project.description{
     font-style: italic;
     padding-bottom: 10px;
 }
@@ -515,4 +515,4 @@ footer .footer-below {
 
 .project.item{
     font-weight: bold;
-}
+}*/

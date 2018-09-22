@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
+<!doctype html>
+<html lang="en">
+<!-- HEAD -->
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sam Lewallen</title>
@@ -10,9 +11,24 @@
     <link rel="canonical" href="http://localhost:4000/">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
+    <!-- background info -->
+    <style>
+    .bigbackground {
+        background-image: url(possible_background_images/golgi_hippocampus.jpg);
+        background-repeat: no-repeat;
+        background-size: 1000px auto;
+        background-position: center;
+        max-width: 800px;
+        margin: auto;
+    }
+    .wrapper {
+        /* background-color: rgba(205, 126, 188, 0.6); */
+    }
+    </style>
+
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <!-- <link type="text/css" rel="stylesheet" href="/css/main.css"/> -->
     <link rel="stylesheet" href="/style.css">
-    <link type="text/css" rel="stylesheet" href="/css/main.css" />
 
     <!-- Google verification -->
     
@@ -34,101 +50,89 @@
     <![endif]-->
 </head>
 
-    <body id="page-top" class="index">
-       <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Sam Lewallen</a>
+<body class="bigbackground">
+    <div id="outerwrapper">
+        <div class="wrapper">
+            <!-- TOPBAR/NAVBAR: -->
+            <div id="topbar">
+                <div class="navbox"><a href="index.html#top">home</a></div>
+                <div class="navbox"><a href="http://neurowiki.shoutwiki.com/wiki/Main_Page">wiki</a></div>
+                <div class="navbox"><a href="https://throughthetulgeywood.wordpress.com">blog</a></div>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#publications">Publications</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="https://throughthetulgeywood.wordpress.com/">Blog</a>
-                    </li>
-                </ul>
-
-            </div>
-            <!-- /.navbar-collapse -->
-
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-        <!-- Header -->
+            <!-- header: -->
+            <div id="parent" class="content">
+                <!-- <div id="child"> -->
+                      <!-- Header -->
     <header>
-        <div class="container">
-            <div class="row">
+        <!-- <div class="container"> -->
+            <!-- <div class="row"> -->
                 <div class="col-lg-12">
                     <img height=250 src="img/LewallenSam.jpg" alt="">
-                    <div class="intro-text">
-                        <span class="name">Sam Lewallen</span>
+                    <div class="intro-text">                      
+                        <span class="name">Sam Lewallen </span>
+                        <br>
+                        <!-- <br> -->
                         <ul class="list-inline">
                             
+                            
                             <li>
-                                <a href="https://github.com/lewallen" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                                <a href="/pdf/cv_lewallen_WEB.pdf" class="btn-social btn-outline"><i class="ai ai-fw ai-cv"></i></a>
                             </li>
                             
                             <li>
-                                <a href="https://scholar.google.com/citations?user=f17bjxcAAAAJ&hl=en" class="btn-social btn-outline"><i class="fa fa-fw fa-graduation-cap"></i></a>
+                                <a href="https://scholar.google.com/citations?user=f17bjxcAAAAJ&hl=en" class="btn-social btn-outline"><i class="ai ai-fw ai-google-scholar"></i></a>
                             </li>
-                            
                             
                             <li>
                                 <a href="https://mathoverflow.net/users/492/sam-lewallen" class="btn-social btn-outline"><i class="ai ai-fw ai-mathoverflow"></i></a>
                             </li>
                             
+                            <br>
+                            <!-- <span style="direction: rtl; unicode-bidi: bidi-override;">ude [tod] notecnirp [ta] nellawel</span> -->
+                            <script src="/js/mailme.js"></script>
                         </ul>
-                        <script src="/js/mailme.js"></script>
                     </div>
                 </div>
-            </div>
-        </div>
+            <!-- </div> -->
+        <!-- </div> -->
     </header>
 
 <!-- <span class="skills">Swartz fellow<br>Theoretical neuroscience</span><br> -->
 
-     <!-- About Section -->
+                <!-- </div> -->
+                 <!-- About Section -->
     <section id="about">
-        <div class="container">
+        <!-- <div class="container"> -->
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                <!-- <div class="col-lg-12 text-center"> -->
+                <div class="aboutclass">
                     <hr>
+                    <!-- <h2>About</h2> -->
+                    <h2>About</h2>
+                    <br>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <p class="small">I'm a theoretical neuroscientist, with a background in pure mathematics. I'm currently a <a href="http://cbs.fas.harvard.edu/science/swartz-program">Swartz fellow</a> at Harvard University in the <a href="http://cbs.fas.harvard.edu">Center for Brain Science</a>.
-
                 </div>
             </div>
-        </div>
+        <!-- </div> -->
     </section>
-    
-     <!-- Publications Section -->
+
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <!-- PUBLICATIONS: -->
+            <div id="publications" class="content">
+
+                 <!-- Publications Section -->
     <section id="publications">
-        <div class="container">
+        <!-- <div class="container"> -->
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Publications</h2>
@@ -334,10 +338,10 @@
             </div>
             * Joint first authors <br>
             ** Authors in alphabetical order
-        </div>
+        <!-- </div> -->
     </section>
 
-     <!-- jQuery Version 1.11.0 -->
+                 <!-- jQuery Version 1.11.0 -->
     <script src="/js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -359,5 +363,27 @@
 
     
 
-    </body>
+
+            </div>
+            <!-- <br>
+            <br>
+            <br>
+            <br> -->
+            <div class="topleft ornament bigbackground">
+            </div>
+            <div class="topright ornament bigbackground">
+            </div>
+            <div class="bottomleft ornament bigbackground">
+            </div>
+            <div class="bottomright ornament bigbackground">
+            </div>
+            <!-- <div id="footer">
+                <p>Site design from <a href="http://www
+.dam.brown.edu/people/mumford/">David Mumford</a> and <a href="http://www.columbia.edu/~ak3625/index.shtml">Ashok Litwin-Kumar</a>.
+                </p>
+            </div> -->
+        </div>
+    </div>
+</body>
+
 </html>

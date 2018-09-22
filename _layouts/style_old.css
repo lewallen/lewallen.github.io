@@ -1,0 +1,208 @@
+/***** FROM ASHOK: *****/
+@font-face { font-family: LibreFranklin; src: url('../fonts/librefranklin/LibreFranklin-Medium.ttf'); } 
+@font-face { font-family: LibreFranklinEm; src: url('../fonts/librefranklin/LibreFranklin-BoldItalic.ttf'); } 
+@font-face { font-family: firasans; src: url('../fonts/firasans/FiraSans-Regular.ttf'); } 
+@font-face { font-family: firasansEm; src: url('../fonts/firasans/FiraSans-BoldItalic.ttf'); } 
+
+
+#topbar {
+  top: inherit;
+  min-height: 2.2em;
+  line-height: 2.2em;
+  /*background: DeepSkyBlue;*/
+  background: rgba(47, 204, 50, 0.6);
+  font-family: Courier,serif;
+  border-left: 1px solid black;  
+  border-right: 1px solid black;  
+  border-top: 1px solid black;    
+}
+.navbox {
+  float: left;
+  width: 20%;
+  max-width: 15em;
+  background: inherit;
+  background-color: transparent;
+}
+.navbox a,
+.navbox a:visited {
+  display: block;
+  padding-left: 1em;
+  color: White;  
+  font-size: 90%;
+}
+.navbox a:hover,
+.navbox a:visited:hover {
+  background: White;
+  color: Black;
+}
+#backtotop {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   z-index: 1;
+   background: LimeGreen;
+   display: block;
+   text-align: center;
+   font-size: 150%;
+}
+#backtotop a,
+#backtotop a:visited {
+   padding-left: 1em;
+   padding-right: 1em;
+   padding-top: 0.25em;
+   padding-bottom: 0.25em;
+   display: block;
+   color: White;
+}
+#backtotop a:hover,
+#backtotop a:visited:hover {
+   background: OrangeRed;
+}
+.content {  
+  max-width: 960px;
+  /*min-width: 320px;*/
+  background-color: white; 
+  /*padding-bottom: .4em;*/
+  /*padding-bottom: 0em;
+  padding-left: 1em;*/
+  
+  padding: .75em;
+
+  /*padding-top: 1em;  
+  padding-bottom: 1em;  
+  padding-left: .5em;  
+  padding-right: .5em;  */
+  
+  /*border-top: 1px dashed black;  
+  border-bottom: 1px dashed black;  */
+  /*border-left: 1px dashed black;  
+  border-right: 1px dashed black;  */
+  border-left: 1px solid black;  
+  border-right: 1px solid black;  
+  border-top: 1px solid black;  
+  border-bottom: 1px solid black;  
+}
+.content img {
+  width: 30%; 
+  height: auto; 
+  max-width: 12em;
+  float: right;
+  /*padding-top: .75em;
+  padding-left: .75em;
+  padding-right: .75em;  */
+}
+.content a { color: BlueViolet; }
+.content a:hover, a:visited:hover { color: DarkOrange; }
+a:link, a:visited { text-decoration: none; }
+h1 {
+  font-weight: normal;
+  font-size: 140%;
+  margin-bottom: 0;
+  margin-top: 0;  
+  /*padding-top: .75em;*/
+  padding-top: 0em;
+}
+h2 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 100%;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;  
+}
+h3 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  }
+body {   
+  margin: 0;
+  line-height: 1.4;
+  /*font-family: Helvetica,Arial,"Liberation Sans",sans-serif;    */
+  /*font-family: LibreFranklin,Courier,sans-serif;*/
+  /*font-family: firasans,Courier,sans-serif;  */
+  font-family: serif;
+}
+html { 
+}
+table {
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-right: 1em;    
+    border-top: 1em;
+}
+table,th,td {
+    border: 1px solid #eeeeee;
+    text-align: left;
+}
+td {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+hr {
+    border: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #eeeeee;    
+}
+blockquote {
+    margin-top: -1em;
+}
+ul {
+  margin-top: 0;
+  padding-left: 1em;
+}
+
+.bibtexitem em {
+
+/*font-style: italic;*/
+/*font-weight: 600;*/
+/*font-family: LibreFranklinEm,Courier,sans-serif;  */
+/*font-family: firasansEm,Courier,sans-serif;  */
+font-style: italic;
+font-weight: bold;
+font-size: 100%;
+}
+
+/***** FROM MUMFORD: *****/
+/* PAGE CONTAINER:; */
+.wrapper {    
+  padding: 35px 40px;
+  background-color: rgba(255,255,255,0.6);  
+  position: relative;
+  /*overflow: hidden;*/    
+}
+#outerwrapper {  
+  padding:0 20px; 
+  max-width:960px;
+  min-width:100px;
+  margin:20px auto;    
+}
+.bigbackground {     
+  background-attachment: fixed;
+  background-color: transparent;
+  background-size: cover;      
+}
+.ornament {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.topleft, .topright {top:-24px}
+.topleft, .bottomleft {left:-24px;}
+.topright, .bottomright {right:-24px;}
+.bottomleft, .bottomright {bottom:-24px;}
+
+#footer {
+  /*clear:both; */
+  /*margin-top: 20px;  */  
+  background-color: white;
+  border-top: 0px dashed black;
+  border-bottom: 0px dashed black;  
+}
+#footer p {font-size: 60%; margin: 0; }

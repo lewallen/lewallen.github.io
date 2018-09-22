@@ -37,12 +37,11 @@ footer:
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-socialfa:
-  - title: github
-    url: https://github.com/lewallen
-  - title: graduation-cap
-    url: https://scholar.google.com/citations?user=f17bjxcAAAAJ&hl=en
 socialai:
+  - title: cv
+    url: /pdf/cv_lewallen_WEB.pdf
+  - title: google-scholar
+    url: https://scholar.google.com/citations?user=f17bjxcAAAAJ&hl=en
   - title: mathoverflow
     url: https://mathoverflow.net/users/492/sam-lewallen
 

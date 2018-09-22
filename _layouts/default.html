@@ -1,11 +1,55 @@
-<!DOCTYPE html>
-<html>
-    {% include head.html %}
-    <body id="page-top" class="index">
-    {% include nav.html %}
-    {% include header.html %}
-    {% include about.html %}    
-    {% include publications.html %}
-    {% include js.html %}
-    </body>
+<!doctype html>
+<html lang="en">
+<!-- HEAD -->
+{% include head.html %}
+<body class="bigbackground">
+    <div id="outerwrapper">
+        <div class="wrapper">
+            <!-- TOPBAR/NAVBAR: -->
+            <div id="topbar">
+                <div class="navbox"><a href="index.html#top">home</a></div>
+                <div class="navbox"><a href="http://neurowiki.shoutwiki.com/wiki/Main_Page">wiki</a></div>
+                <div class="navbox"><a href="https://throughthetulgeywood.wordpress.com">blog</a></div>
+            </div>
+
+            <!-- header: -->
+            <div id="parent" class="content">
+                <!-- <div id="child"> -->
+                  {% include header.html %}
+                <!-- </div> -->
+                {% include about.html %}
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <!-- PUBLICATIONS: -->
+            <div id="publications" class="content">
+
+                {% include publications.html %}
+                {% include js.html %}
+
+            </div>
+            <!-- <br>
+            <br>
+            <br>
+            <br> -->
+            <div class="topleft ornament bigbackground">
+            </div>
+            <div class="topright ornament bigbackground">
+            </div>
+            <div class="bottomleft ornament bigbackground">
+            </div>
+            <div class="bottomright ornament bigbackground">
+            </div>
+            <!-- <div id="footer">
+                <p>Site design from <a href="http://www
+.dam.brown.edu/people/mumford/">David Mumford</a> and <a href="http://www.columbia.edu/~ak3625/index.shtml">Ashok Litwin-Kumar</a>.
+                </p>
+            </div> -->
+        </div>
+    </div>
+</body>
+
 </html>

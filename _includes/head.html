@@ -8,9 +8,24 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
+    <!-- background info -->
+    <style>
+    .bigbackground {
+        background-image: url(possible_background_images/golgi_hippocampus.jpg);
+        background-repeat: no-repeat;
+        background-size: 1000px auto;
+        background-position: center;
+        max-width: 800px;
+        margin: auto;
+    }
+    .wrapper {
+        /* background-color: rgba(205, 126, 188, 0.6); */
+    }
+    </style>
+
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <!-- <link type="text/css" rel="stylesheet" href="/css/main.css"/> -->
     <link rel="stylesheet" href="{{ "/style.css" }}">
-    <link type="text/css" rel="stylesheet" href="/css/main.css" />
 
     <!-- Google verification -->
     {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
