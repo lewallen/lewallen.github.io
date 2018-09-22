@@ -1,2 +1,2 @@
-zzzzz =('alex'+'.h.willia'+ '@' + 'gmail'+'.com')
-document.write('<a class="contact" href="mailto:' + zzzzz + '">'+ zzzzz + '</a>')
+zisafunnytrickfromalex =('sam'+'.lewallen'+ '@' + 'gmail'+'.com')
+document.write('<a class="contact" href="mailto:' + zisafunnytrickfromalex + '">'+ zisafunnytrickfromalex + '</a>')

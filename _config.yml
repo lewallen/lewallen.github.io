@@ -37,12 +37,13 @@ footer:
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
+socialfa:
   - title: github
     url: https://github.com/lewallen
   - title: graduation-cap
     url: https://scholar.google.com/citations?user=f17bjxcAAAAJ&hl=en
-  - title: math-overflow
+socialai:
+  - title: mathoverflow
     url: https://mathoverflow.net/users/492/sam-lewallen
 
 # Postal address (add as many lines as necessary)

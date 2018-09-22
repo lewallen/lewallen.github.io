@@ -1,7 +1,7 @@
 
 <li class="title">
     {% if paper.selected %}
-    <i class="fa fa-star"></i> 
+    <i class="fa fa-star"></i>
     {% endif %}
     {{ paper.title }}
 </li>
@@ -11,15 +11,27 @@
 
 <ul class="list-inline">
 
-    {% if paper.pdf %}
+    {% if paper.arxiv %}
     <li class="paper-links">
-        <a href="{{ paper.pdf }}" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
+        <a href="{{ paper.arxiv }}" class="btn-small" target="_blank"><i class="ai ai-fw ai-arxiv ai-lg"></i></a>
     </li>
     {% endif %}
 
-    {% if paper.link %}
+    {% if paper.biorxiv %}
     <li class="paper-links">
-        <a href="{{ paper.link }}" class="btn-small" target="_blank"><i class="fa fa-fw fa-link fa-lg"></i></a>
+        <a href="{{ paper.biorxiv }}" class="btn-small" target="_blank"><i class="ai ai-fw ai-biorxiv ai-lg"></i></a>
+    </li>
+    {% endif %}
+
+    {% if paper.journallink %}
+    <li class="paper-links">
+        <a href="{{ paper.journallink }}" class="btn-small" target="_blank"><i class="fa fa-fw fa-book fa-lg"></i></a>
+    </li>
+    {% endif %}
+
+    {% if paper.pdf %}
+    <li class="paper-links">
+        <a href="{{ paper.pdf }}" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
     </li>
     {% endif %}
 
@@ -40,17 +52,5 @@
         <a href="{{ paper.github }}" class="btn-small" target="_blank"><i class="fa fa-fw fa-github-square fa-lg"></i></a>
     </li>
     {% endif %}
-
-    {% if paper.youtube %}
-    <li class="paper-links">
-        <a href="{{ paper.youtube }}" class="btn-small" target="_blank"><i class="fa fa-fw fa-youtube-square fa-lg"></i></a>
-    </li>
-    {% endif %}
-
-    <!-- {% if paper.news %}
-    <li class="paper-links">
-        <a href="{{ paper.news }}" class="btn-small" target="_blank"><i class="fa fa-fw fa-newspaper-o fa-lg"></i></a>
-    </li>
-    {% endif %} -->
 
 </ul>

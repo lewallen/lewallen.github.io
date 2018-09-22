@@ -22,6 +22,7 @@
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/academicons-1.8.6/css/academicons.min.css">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -50,7 +51,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                
+
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
@@ -60,13 +61,10 @@
                         <a href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li class="page-scroll">
                         <a href="#publications">Publications</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="http://alexhwilliams.info/itsneuronalblog/">Blog</a>
+                        <a href="https://throughthetulgeywood.wordpress.com/">Blog</a>
                     </li>
                 </ul>
 
@@ -76,15 +74,15 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+
         <!-- Header -->
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img height=150 src="img/profile.jpg" alt="">
+                    <img height=250 src="img/LewallenSam.jpg" alt="">
                     <div class="intro-text">
-                        <span class="name">Alex Williams</span>
-                        <span class="skills">PhD Student<br>Computational/Theoretical Neuroscience</span><br>
+                        <span class="name">Sam Lewallen</span>
                         <ul class="list-inline">
                             
                             <li>
@@ -95,8 +93,9 @@
                                 <a href="https://scholar.google.com/citations?user=f17bjxcAAAAJ&hl=en" class="btn-social btn-outline"><i class="fa fa-fw fa-graduation-cap"></i></a>
                             </li>
                             
+                            
                             <li>
-                                <a href="https://mathoverflow.net/users/492/sam-lewallen" class="btn-social btn-outline"><i class="fa fa-fw fa-math-overflow"></i></a>
+                                <a href="https://mathoverflow.net/users/492/sam-lewallen" class="btn-social btn-outline"><i class="ai ai-fw ai-mathoverflow"></i></a>
                             </li>
                             
                         </ul>
@@ -106,6 +105,9 @@
             </div>
         </div>
     </header>
+
+<!-- <span class="skills">Swartz fellow<br>Theoretical neuroscience</span><br> -->
+
      <!-- About Section -->
     <section id="about">
         <div class="container">
@@ -117,214 +119,57 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="small">I'm a PhD student in Neuroscience at Stanford University interested in a broad class of theoretical problems related to biology. I work in <a href="https://ganguli-gang.stanford.edu/" target="_blank">Surya Ganguli</a>'s group, and am funded through the <a href="http://www.krellinst.org/csgf/">DOE Computational Science Graduate Fellowship Program</a>.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="small">I previously worked at the Salk Institute (with <a href="http://cnl.salk.edu/" target="_blank">Terry Sejnowski</a>) and Brandeis University (with <a href="http://blogs.brandeis.edu/marderlab/" target="_blank">Eve Marder</a> and <a href="http://olearylab.org/" target="_blank">Tim O'Leary</a>). I was an undergraduate at Bowdoin College, where I worked with <a href="https://www.bowdoin.edu/faculty/p/pdickins/" target="_blank">Patsy Dickinson</a>.
+                    <p class="small">I'm a theoretical neuroscientist, with a background in pure mathematics. I'm currently a <a href="http://cbs.fas.harvard.edu/science/swartz-program">Swartz fellow</a> at Harvard University in the <a href="http://cbs.fas.harvard.edu">Center for Brain Science</a>.
+
                 </div>
             </div>
         </div>
     </section>
-
-     <!-- Publications Section -->
-    <section id="projects">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
-                    <hr>
-                </div>
-            </div>
-            <div class="row">
-                <ul class="pub-list">
-                
-                    <li class="project title">
-                        Unsupervised Learning Techniques for Large-Scale, Multi-Trial Neural Data
-                    </li>
-                    <li class="project description">
-                        An increasingly common paradigm in neuroscience is to simultaneously record the activity of many neurons over repeated experimental trials (e.g., multiple presentations of a sensory stimulus, or a repeated motor action). The resulting datasets can be very large, potentially containing recordings from thousands of neurons over thousands of experimental trials. I'm interested in finding general statistical approaches for understanding datasets of this form.
-
-                    </li>
-                    
-                    <ul>
-                        
-                        <li>
-                            <a class="project item" href="http://alexhwilliams.info/pdf/cosyne17.pdf" target="_blank">
-                            <i class="fa fa-fw fa-file-pdf-o fa-lg"></i>
-                            Tensor Decomposition of Neural Data
-                            </a>
-                            &mdash;
-                            Commonly used methods for dimensionality reduction (such as <a href="http://alexhwilliams.info/itsneuronalblog/2016/03/27/pca/" target="_blank">PCA</a>) identify low-dimensional features of within-trial neural dynamics, but do not model changes in neural activity across trials. To better understand processes like learning and trial-to-trial variability, I'm exploring <a href="http://www.sandia.gov/~tgkolda/pubs/pubfiles/TensorReview.pdf" target="_blank"> tensor decomposition methods</a> to find reduced representations of multi-trial datasets.
-
-                        </li>
-                        
-                        <li>
-                            <a class="project item" href="https://www.biorxiv.org/content/early/2018/03/02/273128.full.pdf" target="_blank">
-                            <i class="fa fa-fw fa-file-pdf-o fa-lg"></i>
-                            Sequence Extraction
-                            </a>
-                            &mdash;
-                            Many animal behaviors are built as a sequence of motor primitives or decisions. The neurons that support these (and other) behaviors can also fire in repeatable sequences. Yet, statistical methods for identifying neural sequences in an unbiased manner (without pre-conceived reference to animal behavior) are not widely used. I am interested in using convolutive matrix factorization methods to address this problem.
-
-                        </li>
-                        
-                        <li>
-                            <a class="project item" href="https://github.com/ganguli-lab/twpca" target="_blank">
-                            <i class="fa fa-fw fa-github-square fa-lg"></i>
-                            Time warping
-                            </a>
-                            &mdash;
-                            Analysis of neural data often relies on manual alignment of neural activity to a stimulus or behavioral event on each trial. However, alignment to external events is not always possible (e.g., in cases where neural activity is locked to internal cognitive states or decisions). I'm working to develop automatic alignment methods for these cases, enabling discovery of otherwise hidden neural coding patterns.
-
-                        </li>
-                        
-                    </ul>
-                    
-                    <br><br>
-                
-                    <li class="project title">
-                        Theoretical Molecular Neurobiology
-                    </li>
-                    <li class="project description">
-                        Biology computes with both electrical and biochemical signals. I'm interested in modeling the interface of these two substrates of computation.
-
-                    </li>
-                    
-                    <ul>
-                        
-                        <li>
-                            <a class="project item" href="http://alexhwilliams.info/pdf/OLeary_etal_2014.pdf" target="_blank">
-                            <i class="fa fa-fw fa-file-pdf-o fa-lg"></i>
-                            Homeostatic Plasticity
-                            </a>
-                            &mdash;
-                            Neurons alter ion channel and synaptic receptor expression/activity to maintain activity levels in physiologically stable regimes. This can be modeled from a control theoretic perspective, which provides perspectives on how noisy molecular processes can nevertheless support reliable physiological behaviors.
-
-                        </li>
-                        
-                        <li>
-                            <a class="project item" href="http://alexhwilliams.info/pdf/Williams_etal_2016.pdf" target="_blank">
-                            <i class="fa fa-fw fa-file-pdf-o fa-lg"></i>
-                            Microtubular Transport in Complex Dendritic Trees
-                            </a>
-                            &mdash;
-                            Neurons are remarkably complex cells. Given this, it seems an almost insurmountable challenge to transport molecular cargo reliably. I've studied a few simple models of how reliable transport can be accomplished.
-
-                        </li>
-                        
-                        <li>
-                            <a class="project item" href="https://github.com/ahwillia/PyNeuron-Toolbox" target="_blank">
-                            <i class="fa fa-fw fa-github-square fa-lg"></i>
-                            PyNeuronToolbox
-                            </a>
-                            &mdash;
-                            A package I wrote to enable better <a href="https://www.neuron.yale.edu/neuron/" target="_blank">NEURON</a> simulations in Jupyter notebooks.
-
-                        </li>
-                        
-                    </ul>
-                    
-                    <br><br>
-                
-                    <li class="project title">
-                        Code
-                    </li>
-                    <li class="project description">
-                        Open-sourced research code.
-                    </li>
-                    
-                    <ul>
-                        
-                        <li>
-                            <a class="project item" href="http://github.com/ahwillia/tensortools" target="_blank">
-                            <i class="fa fa-fw fa-github-square fa-lg"></i>
-                            TensorTools
-                            </a>
-                            &mdash;
-                            My Python toolbox for fitting tensor decompositions to neural data.
-
-                        </li>
-                        
-                        <li>
-                            <a class="project item" href="https://github.com/ahwillia/NonNegLeastSquares.jl" target="_blank">
-                            <i class="fa fa-fw fa-github-square fa-lg"></i>
-                            NonNegLeastSquares.jl
-                            </a>
-                            &mdash;
-                            Active-set methods to efficiently solve <a href="https://en.wikipedia.org/wiki/Non-negative_least_squares" target="_blank">nonnegative least-squares problems</a> in Julia.
-
-                        </li>
-                        
-                        <li>
-                            <a class="project item" href="https://github.com/ahwillia/HiddenMarkovModel.jl" target="_blank">
-                            <i class="fa fa-fw fa-github-square fa-lg"></i>
-                            ToyHMM.jl
-                            </a>
-                            &mdash;
-                            A simple package for fitting Hidden Markov Models with discrete emissions in Julia. Good for teaching!
-
-                        </li>
-                        
-                    </ul>
-                    
-                    <br><br>
-                
-                </ul>
-            </div>
-        </div>
-    </section>
+    
      <!-- Publications Section -->
     <section id="publications">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Publications</h2>
-                    <h5>(<i class="fa fa-star"></i> = personal favorite)</h5>
                     <hr>
                 </div>
             </div>
             <div class="row">
-                <h3>Papers</h3>
                 <ul class="pub-list">
                 
                     
 <li class="title">
     
-    Unsupervised discovery of temporal sequences in high-dimensional datasets, with applications to neuroscience
+    Probing variability in a cognitive map using manifold inference from neural dynamics
 </li>
 <li class="author">
-    Mackevicius EL, Bahle AH, <b>Williams AH</b>, Gu S, Denissenko NI, Goldman MS, Fee MS (2018). <em>bioRxiv preprint</em>. 
+    Ryan J Low*, Sam Lewallen*, Dmitriy Aronov, Rhino Nevers, David W Tank (2009). <em>bioRxiv</em>. 
 </li>
 
 <ul class="list-inline">
 
     
-    <li class="paper-links">
-        <a href="https://www.biorxiv.org/content/early/2018/03/02/273128.full.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
-    </li>
-    
 
     
     <li class="paper-links">
-        <a href="https://doi.org/10.1101/273128" class="btn-small" target="_blank"><i class="fa fa-fw fa-link fa-lg"></i></a>
+        <a href="https://www.biorxiv.org/content/early/2018/09/20/418939" class="btn-small" target="_blank"><i class="ai ai-fw ai-biorxiv ai-lg"></i></a>
     </li>
-    
-
     
 
     
 
     
     <li class="paper-links">
-        <a href="https://github.com/FeeLab/seqNMF" class="btn-small" target="_blank"><i class="fa fa-fw fa-github-square fa-lg"></i></a>
+        <a href="/pdf/MIND.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
     </li>
     
 
     
 
-    <!--  -->
+    
+
+    
 
 </ul>
 
@@ -332,12 +177,10 @@
                     
 <li class="title">
     
-    <i class="fa fa-star"></i> 
-    
-    Unsupervised discovery of demixed, low-dimensional neural dynamics across multiple timescales through tensor components analysis
+    Grid cell responses in 1D environments assessed as slices through a 2D lattice
 </li>
 <li class="author">
-    <b>Williams AH</b>, Kim TH, Wang F, Vyas S, Ryu SI, Shenoy KV, Schnitzer M, Kolda TG, Ganguli S (2018). <em>Neuron</em>. 98(6):1099–1115.e8
+    KiJung Yoon*, Sam Lewallen*, Amina A Kinkhabwala, David W Tank, Ila R Fiete (2016). <em>Neuron</em>. 
 </li>
 
 <ul class="list-inline">
@@ -345,8 +188,16 @@
     
 
     
+
+    
     <li class="paper-links">
-        <a href="https://doi.org/10.1016/j.neuron.2018.05.015" class="btn-small" target="_blank"><i class="fa fa-fw fa-link fa-lg"></i></a>
+        <a href="https://www.sciencedirect.com/science/article/pii/S0896627316000647" class="btn-small" target="_blank"><i class="fa fa-fw fa-book fa-lg"></i></a>
+    </li>
+    
+
+    
+    <li class="paper-links">
+        <a href="/pdf/Yoon_et_al_2016_Grid_Cell_Responses_in_1D_Environments_Assessed_as_Slices.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
     </li>
     
 
@@ -355,14 +206,6 @@
     
 
     
-    <li class="paper-links">
-        <a href="https://github.com/ahwillia/tensortools" class="btn-small" target="_blank"><i class="fa fa-fw fa-github-square fa-lg"></i></a>
-    </li>
-    
-
-    
-
-    <!--  -->
 
 </ul>
 
@@ -370,41 +213,39 @@
                     
 <li class="title">
     
-    <i class="fa fa-star"></i> 
-    
-    Dendritic trafficking faces physiologically critical speed-precision tradeoffs
+    Stimulus-dependent correlations in threshold-crossing spiking neurons
 </li>
 <li class="author">
-    <b>Williams AH</b>, O’Donnell C, Sejnowski T, O’Leary T (2016). <em>eLife</em>. 5:e20556
+    Yoram Burak, Sam Lewallen, Haim Sompolinsky (2009). <em>Neural Computation</em>. 
 </li>
 
 <ul class="list-inline">
 
     
     <li class="paper-links">
-        <a href="/pdf/Williams_etal_2016.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
+        <a href="https://arxiv.org/abs/0902.2037" class="btn-small" target="_blank"><i class="ai ai-fw ai-arxiv ai-lg"></i></a>
     </li>
-    
-
-    
-    <li class="paper-links">
-        <a href="http://dx.doi.org/10.7554/eLife.20556" class="btn-small" target="_blank"><i class="fa fa-fw fa-link fa-lg"></i></a>
-    </li>
-    
-
     
 
     
 
     
     <li class="paper-links">
-        <a href="https://github.com/ahwillia/Williams-etal-Synaptic-Transport" class="btn-small" target="_blank"><i class="fa fa-fw fa-github-square fa-lg"></i></a>
+        <a href="https://www.mitpressjournals.org/doi/abs/10.1162/neco.2009.07-08-830" class="btn-small" target="_blank"><i class="fa fa-fw fa-book fa-lg"></i></a>
+    </li>
+    
+
+    
+    <li class="paper-links">
+        <a href="/pdf/Burak_et_al_2009_Stimulus-dependent_correlations_in_threshold-crossing.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
     </li>
     
 
     
 
-    <!--  -->
+    
+
+    
 
 </ul>
 
@@ -412,23 +253,31 @@
                     
 <li class="title">
     
-    Distinct or shared actions of peptide family isoforms&colon; II. Multiple pyrokinins exert similar effects in the lobster stomatogastric nervous system.
+    (1,1) L-space knots
 </li>
 <li class="author">
-    Dickinson PS, Kurland SC, Qu X, Parker BO, Sreekrishnan A, Kwiatkowski MA, <b>Williams AH</b>, Ysasi AB, Christie AE (2015). <em>J Exp Biol</em>. 218:2905-17
+    Joshua Evan Greene, Sam Lewallen, Faramarz Vafaee** (2018). <em>Compositio Mathematica</em>. 
 </li>
 
 <ul class="list-inline">
 
     
     <li class="paper-links">
-        <a href="/pdf/Dickinson_etal_2015.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
+        <a href="https://arxiv.org/abs/1610.04810" class="btn-small" target="_blank"><i class="ai ai-fw ai-arxiv ai-lg"></i></a>
+    </li>
+    
+
+    
+
+    
+    <li class="paper-links">
+        <a href="https://www.cambridge.org/core/journals/compositio-mathematica/article/11-lspace-knots/913FE639D9C8D4BDDFBC6F23AD9A7488#" class="btn-small" target="_blank"><i class="fa fa-fw fa-book fa-lg"></i></a>
     </li>
     
 
     
     <li class="paper-links">
-        <a href="http://dx.doi.org/10.1242/jeb.124818" class="btn-small" target="_blank"><i class="fa fa-fw fa-link fa-lg"></i></a>
+        <a href="/pdf/11_lspace_knots.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
     </li>
     
 
@@ -437,10 +286,6 @@
     
 
     
-
-    
-
-    <!--  -->
 
 </ul>
 
@@ -448,73 +293,17 @@
                     
 <li class="title">
     
-    Summary of the DREAM8 parameter estimation challenge&colon; Toward parameter identification for whole-cell models.
+    Strong L-spaces and left orderability
 </li>
 <li class="author">
-    Karr JR, <b>Williams AH</b>, Zucker JD, Raue A, Steiert B, Timmer J, Kreutz C, DREAM8 Parameter Estimation Challenge Consortium, Wilkinson S, Allgood BA, Bot BM, Hoff BR, Kellen MR, Covert MW, Stolovitzky GA, Meyer P (2015). <em>PLoS Comput Biol</em>. 11(5):e1004096
+    Adam Simon Levine, Sam Lewallen** (2012). <em>Mathematical Research Letters</em>. 
 </li>
 
 <ul class="list-inline">
 
     
     <li class="paper-links">
-        <a href="/pdf/Karr_etal_2015.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
-    </li>
-    
-
-    
-    <li class="paper-links">
-        <a href="http://dx.doi.org/10.1371/journal.pcbi.1004096" class="btn-small" target="_blank"><i class="fa fa-fw fa-link fa-lg"></i></a>
-    </li>
-    
-
-    
-    <li class="paper-links">
-        <a href="http://dx.doi.org/10.7303/syn1876068" class="btn-small" target="_blank"><i class="fa fa-fw fa-info fa-lg"></i></a>
-    </li>
-    
-
-    
-
-    
-
-    
-    <li class="paper-links">
-        <a href="https://www.youtube.com/watch?v=dKez1gE4y-U" class="btn-small" target="_blank"><i class="fa fa-fw fa-youtube-square fa-lg"></i></a>
-    </li>
-    
-
-    <!-- 
-    <li class="paper-links">
-        <a href="http://www.the-scientist.com/?articles.view/articleNo/35836/title/May-the-Best-Model-Win/" class="btn-small" target="_blank"><i class="fa fa-fw fa-newspaper-o fa-lg"></i></a>
-    </li>
-     -->
-
-</ul>
-
-                
-                    
-<li class="title">
-    
-    <i class="fa fa-star"></i> 
-    
-    Cell types, network homeostasis and pathological compensation from a biologically plausible ion channel expression model.
-</li>
-<li class="author">
-    O’Leary T, <b>Williams AH</b>, Franci A, Marder E (2014). <em>Neuron</em>. 82(4):809-21
-</li>
-
-<ul class="list-inline">
-
-    
-    <li class="paper-links">
-        <a href="/pdf/OLeary_etal_2014.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
-    </li>
-    
-
-    
-    <li class="paper-links">
-        <a href="http://dx.doi.org/10.1016/j.neuron.2014.04.002" class="btn-small" target="_blank"><i class="fa fa-fw fa-link fa-lg"></i></a>
+        <a href="https://arxiv.org/abs/1110.0563" class="btn-small" target="_blank"><i class="ai ai-fw ai-arxiv ai-lg"></i></a>
     </li>
     
 
@@ -522,43 +311,13 @@
 
     
     <li class="paper-links">
-        <a href="http://dx.doi.org/10.1016/j.neuron.2014.05.008" class="btn-small" target="_blank"><i class="fa fa-fw fa-comments fa-lg"></i></a>
+        <a href="https://www.intlpress.com/site/pub/pages/journals/items/mrl/content/vols/0019/0006/a005/" class="btn-small" target="_blank"><i class="fa fa-fw fa-book fa-lg"></i></a>
     </li>
     
 
     
     <li class="paper-links">
-        <a href="https://github.com/marderlab/oleary_et_al_2014" class="btn-small" target="_blank"><i class="fa fa-fw fa-github-square fa-lg"></i></a>
-    </li>
-    
-
-    
-
-    <!--  -->
-
-</ul>
-
-                
-                    
-<li class="title">
-    
-    Many parameter sets in a multicompartment model oscillator are robust to temperature perturbations.
-</li>
-<li class="author">
-    Caplan JS, <b>Williams AH</b>, Marder E (2014). <em>J Neurosci</em>. 34(14):4963-75
-</li>
-
-<ul class="list-inline">
-
-    
-    <li class="paper-links">
-        <a href="/pdf/Caplan_etal_2014.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
-    </li>
-    
-
-    
-    <li class="paper-links">
-        <a href="http://dx.doi.org/10.1523/JNEUROSCI.0280-14.2014" class="btn-small" target="_blank"><i class="fa fa-fw fa-link fa-lg"></i></a>
+        <a href="/pdf/Levine_Lewallen_2012_Strong_L-spaces_and_left-orderability.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
     </li>
     
 
@@ -567,192 +326,14 @@
     
 
     
-
-    
-
-    <!--  -->
-
-</ul>
-
-                
-                    
-<li class="title">
-    
-    The neuromuscular transform of the lobster cardiac system explains the opposing effects of a neuromodulator on muscle output.
-</li>
-<li class="author">
-    <b>Williams AH</b>, Calkins A, O’Leary T, Symonds R, Marder E, Dickinson PS (2013). <em>J Neurosci</em>. 33(42):16565-75
-</li>
-
-<ul class="list-inline">
-
-    
-    <li class="paper-links">
-        <a href="/pdf/Williams_etal_2013_NMT.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
-    </li>
-    
-
-    
-    <li class="paper-links">
-        <a href="http://dx.doi.org/10.1523/JNEUROSCI.2903-13.2013" class="btn-small" target="_blank"><i class="fa fa-fw fa-link fa-lg"></i></a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    <!--  -->
-
-</ul>
-
-                
-                    
-<li class="title">
-    
-    Correlations in ion channel expression emerge from homeostatic regulation mechanisms.
-</li>
-<li class="author">
-    O’Leary T, <b>Williams AH</b>, Caplan JS, Marder E (2013). <em>Proc Natl Acad Sci USA</em>. 110(28):E2645-54
-</li>
-
-<ul class="list-inline">
-
-    
-    <li class="paper-links">
-        <a href="/pdf/OLeary_etal_2013.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
-    </li>
-    
-
-    
-    <li class="paper-links">
-        <a href="http://dx.doi.org/10.1073/pnas.1309966110" class="btn-small" target="_blank"><i class="fa fa-fw fa-link fa-lg"></i></a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    <!--  -->
-
-</ul>
-
-                
-                    
-<li class="title">
-    
-    Animal-to-animal variability in the phasing of the crustacean cardiac motor pattern&colon; an experimental and computational analysis.
-</li>
-<li class="author">
-    <b>Williams AH</b>, Kwiatkoswki MA, Mortimer AL, Marder E, Zeeman ML, Dickinson PS (2013). (2013). <em>J Neurophysiol</em>. 109:2451-65.
-</li>
-
-<ul class="list-inline">
-
-    
-    <li class="paper-links">
-        <a href="/pdf/Williams_etal_2013_CG.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
-    </li>
-    
-
-    
-    <li class="paper-links">
-        <a href="http://dx.doi.org/10.1152/jn.01010.2012" class="btn-small" target="_blank"><i class="fa fa-fw fa-link fa-lg"></i></a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    <!--  -->
-
-</ul>
-
-                
-                </ul>
-                <h3>Reviews</h3>
-                <ul class="pub-list">
-                
-                    
-<li class="title">
-    
-    Neuromodulation in Small Networks.
-</li>
-<li class="author">
-    <b>Williams AH</b>, Hamood AW, Marder E (2015). <em>Springer Encyclopedia of Computational Neuroscience</em>. 
-</li>
-
-<ul class="list-inline">
-
-    
-    <li class="paper-links">
-        <a href="/pdf/Williams_Springer_Review.pdf" class="btn-small" target="_blank"><i class="fa fa-fw fa-file-pdf-o fa-lg"></i></a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    <!--  -->
-
-</ul>
-
-                
-                    
-<li class="title">
-    
-    Homeostatic Regulation of Neuronal Excitability.
-</li>
-<li class="author">
-    <b>Williams AH</b>, O’Leary T, Marder E (2015). <em>Scholarpedia</em>. 8(1):1656
-</li>
-
-<ul class="list-inline">
-
-    
-
-    
-    <li class="paper-links">
-        <a href="http://www.scholarpedia.org/article/Homeostatic_Regulation_of_Neuronal_Excitability" class="btn-small" target="_blank"><i class="fa fa-fw fa-link fa-lg"></i></a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    <!--  -->
 
 </ul>
 
                 
                 </ul>
             </div>
+            * Joint first authors <br>
+            ** Authors in alphabetical order
         </div>
     </section>
 
