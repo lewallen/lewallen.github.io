@@ -71,6 +71,7 @@
   padding-top: 1em;
   padding-left: .85em;
   padding-right: .85em;
+  padding-bottom: .85em;
   border-left: 1px solid black;
   border-right: 1px solid black;
   border-top: 1px solid black;
@@ -82,7 +83,7 @@
   max-height: 192px;
   margin-top: 10px;
   margin-bottom: 25px;
-  margin-right: 15px;
+  /* margin-right: 15px; */
   float: left;
 }
 .content a { color: BlueViolet; }
@@ -90,14 +91,14 @@
 a:link, a:visited { text-decoration: none; }
 h1 {
   font-weight: normal;
-  font-size: 140%;
+  /* font-size: 140%; */
   margin-bottom: 0;
   margin-top: -.5em;
   padding-top: 0em;
 }
 h2 {
   font-weight: normal;
-  font-size: 70%;
+  /* font-size: 70%; */
   margin-bottom: -1em;
   margin-top: 0;
   padding-top: .2em;
@@ -105,7 +106,7 @@ h2 {
 }
 h3 {
   font-weight: normal;
-  font-size: 140%;
+  /* font-size: 140%; */
   margin-bottom: 0;
   margin-top: -.3em;
   padding-top: 0em;
@@ -113,8 +114,12 @@ h3 {
 body {
   margin: 0;
   line-height: 1.4;
-  font-family: sans-serif;
-  /*font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+  /* font-family: sans-serif; */
+  /* font-family: Helvetica, serif; */
+  /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+  /* font-family: Montserrat,serif; */
+  font-family: Verdana;
+  font-size: 15px;
 }
 html {
 }
@@ -146,11 +151,8 @@ blockquote {
 ul {
   margin-top: 0;
   padding-left: 1em;
-}
-.bibtexitem em {
-  font-style: italic;
-  font-weight: bold;
-  font-size: 100%;
+  padding-right: 1em;
+  font-size: 15px;
 }
 /***** FROM MUMFORD: *****/
 /* PAGE CONTAINER:; */
@@ -172,12 +174,12 @@ ul {
   background-color: transparent;
   background-size: cover;
 }
-.ornament {
+/* .ornament {
   position: absolute;
   width: 50px;
   height: 50px;
   border-radius: 25px;
-}
+} */
 .topleft, .topright {top:-24px}
 .topleft, .bottomleft {left:-24px;}
 .topright, .bottomright {right:-24px;}
@@ -185,10 +187,10 @@ ul {
 #footer {
   background-color: white;
   border: 1px solid black;
-  padding-left: .25em;
+  /* padding-left: .25em; */
 }
 #footer p {
-  font-size: 60%;
+  /* font-size: 60%; */
   margin: 0;
 }
 /* Added for vertical centering: (05/19/17, http://vanseodesign.com/css/vertical-centering/) */
@@ -201,7 +203,7 @@ ul {
     padding-top: 22px;
     /* padding-bottom: 0px; */
     margin-bottom: 0px;
-    font-size: 100%;
+    /* font-size: 100%; */
 }
 /* from main.css (alex williams )*/
 /* pub stuff*/
@@ -210,16 +212,17 @@ ul {
     /*margin-left: 15px;*/
 }
 .pub-list .author{
-    font-size:14px;
+    font-size: 80%;
     color: #CC5757;
     padding-bottom: 6px;
 }
 .pub-list .paper-links{
     color: #CC5757;
-    padding-bottom:23px;
+    padding-bottom: 23px;
 }
 .pub-list .title{
-    font-size:17px;
+    font-size: 15px;
+    font-family: Verdana;
 }
 /* button stuff */
 .btn-small{
@@ -232,7 +235,7 @@ ul {
 /* contact stuff */
 .contact{
     /*margin-top: -10px*/
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 .contact:hover{
     /*font-size: 20px;
@@ -241,9 +244,6 @@ ul {
 /* header stuff */
 header {
     text-align: center;
-    /*color: #2C3E50;
-    background: #fff;*/
-    line-height: 50px
 }
 header .container {
     /*padding-top: 100px;
@@ -257,13 +257,9 @@ header .intro-text .name {
     /*display: block;
     text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 1.5em;
+    font-size: 25px;
     font-weight: 700;
 }
-/*header .intro-text .skills {
-    font-size: 1.75em;
-}*/
-
 /* social buttons */
 .btn-social {
     display: inline-block;
@@ -281,12 +277,11 @@ header .intro-text .name {
     outline: 0;
 }
 p.small {
-    font-size: 17px;
-    /*padding-right: 5px;*/
     padding-left: 5px;
     padding-top: 5px;
+    /* font-family: Verdana; */
+    font-size: 15px;
 }
-
 h1,
 h2,
 h3,
@@ -298,15 +293,13 @@ h6 {
     font-weight: 700;
     font-size: 15px;
 }
-p.aboutclass{
+.intro-aboutrow {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+p.htitle{
   text-align: center;
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
-  font-size: 15px;
-}
-
-.intro-aboutrow {
-  margin-left: 5px;
-  margin-right: 5px;
 }
