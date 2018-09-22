@@ -3,6 +3,7 @@ title: Sam Lewallen
 email: your-email@domain.com
 url: https://lewallen.github.io/
 description: "Sam Lewallen's research webpage."
+github_username: lewallen
 meta_author:
 
 # Google webmaster tools
@@ -41,8 +42,8 @@ social:
     url: https://github.com/lewallen
   - title: graduation-cap
     url: https://scholar.google.com/citations?user=f17bjxcAAAAJ&hl=en
-    - title: math-overflow
-      url: https://mathoverflow.net/users/492/sam-lewallen
+  - title: math-overflow
+    url: https://mathoverflow.net/users/492/sam-lewallen
 
 # Postal address (add as many lines as necessary)
 address:
