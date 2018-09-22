@@ -68,7 +68,6 @@
 .content {
   max-width: 960px;
   background-color: white;
-  padding-bottom: .75em;
   padding-top: 1em;
   padding-left: .85em;
   padding-right: .85em;
@@ -153,7 +152,6 @@ ul {
   font-weight: bold;
   font-size: 100%;
 }
-
 /***** FROM MUMFORD: *****/
 /* PAGE CONTAINER:; */
 .wrapper {
@@ -184,7 +182,6 @@ ul {
 .topleft, .bottomleft {left:-24px;}
 .topright, .bottomright {right:-24px;}
 .bottomleft, .bottomright {bottom:-24px;}
-
 #footer {
   background-color: white;
   border: 1px solid black;
@@ -194,21 +191,20 @@ ul {
   font-size: 60%;
   margin: 0;
 }
-
 /* Added for vertical centering: (05/19/17, http://vanseodesign.com/css/vertical-centering/) */
 #parent {
     padding-top: 19px;
-    padding-bottom: 10px;
+    /* padding-bottom: 30px; */
+    margin-bottom: 30px;
 }
 #child {
     padding-top: 22px;
-    padding-bottom: 22px;
-    font-size: 140%;
+    /* padding-bottom: 0px; */
+    margin-bottom: 0px;
+    font-size: 100%;
 }
-
 /* from main.css (alex williams )*/
 /* pub stuff*/
-
 .pub-list {
     list-style-type: none;
     /*margin-left: 15px;*/
@@ -288,7 +284,7 @@ p.small {
     font-size: 17px;
     /*padding-right: 5px;*/
     padding-left: 5px;
-    padding-top: 5px
+    padding-top: 5px;
 }
 
 h1,

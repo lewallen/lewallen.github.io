@@ -3,53 +3,93 @@
 <!-- HEAD -->
 {% include head.html %}
 <body class="bigbackground">
-    <div id="outerwrapper">
-        <div class="wrapper">
-            <!-- TOPBAR/NAVBAR: -->
-            <div id="topbar">
-                <div class="navbox"><a href="index.html#top">home</a></div>
-                <div class="navbox"><a href="http://neurowiki.shoutwiki.com/wiki/Main_Page">wiki</a></div>
-                <div class="navbox"><a href="https://throughthetulgeywood.wordpress.com">blog</a></div>
-            </div>
+  <div id="outerwrapper">
+    <div class="wrapper">
+      <!-- TOPBAR/NAVBAR: -->
+      <div id="topbar">
+        <div class="navbox"><a href="index.html#top">home</a></div>
+        <div class="navbox"><a href="http://neurowiki.shoutwiki.com/wiki/Main_Page">wiki</a></div>
+        <div class="navbox"><a href="https://throughthetulgeywood.wordpress.com">blog</a></div>
+      </div>
 
-            <!-- header: -->
-            <div id="parent" class="content">
-                <!-- <div id="child"> -->
-                  {% include header.html %}
+      <div id="parent" class="content">
+
+        <div id="child">
+          <!-- Header -->
+          <header>
+            <div class="col-lg-12">
+              <img height=250 src="img/LewallenSam.jpg" alt="">
+              <div class="intro-text">
+                <span class="name">Sam Lewallen </span>
+                <br>
+                <!-- <br> -->
+                <ul class="list-inline">
+                  {% for network in site.socialfa %}
+                  <li>
+                    <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                  </li>
+                  {% endfor %}
+                  {% for network in site.socialai %}
+                  <li>
+                    <a href="{{ network.url }}" class="btn-social btn-outline"><i class="ai ai-fw ai-{{ network.title }}"></i></a>
+                  </li>
+                  {% endfor %}
+                  <br>
+                  <!-- <span style="direction: rtl; unicode-bidi: bidi-override;">ude [tod] notecnirp [ta] nellawel</span> -->
+                  <script src="/js/mailme.js"></script>
+                </ul>
+              </div>
+            </div>
+          </header>
+
+          <div class="row">
+            <!-- <div class="col-lg-12 text-center"> -->
+            <div class="aboutclass">
+              <!-- <h2>About</h2> -->
+              <!-- <h2>About</h2> -->
+              <br>
+            </div>
+          </div>
+          <div class="aboutrow">
+            <hr>
+            <p class="aboutclass">About
+              <hr>
+              <!-- <div class="col-lg-12"> -->
+                <p class="small">I'm a theoretical neuroscientist, with a background in pure mathematics. I'm currently a <a href="http://cbs.fas.harvard.edu/science/swartz-program">Swartz fellow</a> at Harvard University in the <a href="http://cbs.fas.harvard.edu">Center for Brain Science</a>.
                 <!-- </div> -->
-                {% include about.html %}
+              </div>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <!-- PUBLICATIONS: -->
+          <div id="publications" class="content">
 
-            <!-- PUBLICATIONS: -->
-            <div id="publications" class="content">
+            {% include publications.html %}
+            {% include js.html %}
 
-                {% include publications.html %}
-                {% include js.html %}
-
-            </div>
-            <!-- <br>
-            <br>
-            <br>
-            <br> -->
-            <div class="topleft ornament bigbackground">
-            </div>
-            <div class="topright ornament bigbackground">
-            </div>
-            <div class="bottomleft ornament bigbackground">
-            </div>
-            <div class="bottomright ornament bigbackground">
-            </div>
-            <!-- <div id="footer">
-                <p>Site design from <a href="http://www
-.dam.brown.edu/people/mumford/">David Mumford</a> and <a href="http://www.columbia.edu/~ak3625/index.shtml">Ashok Litwin-Kumar</a>.
-                </p>
-            </div> -->
-        </div>
+          </div>
+          <!-- <br>
+          <br>
+          <br>
+          <br> -->
+          <div class="topleft ornament bigbackground">
+          </div>
+          <div class="topright ornament bigbackground">
+          </div>
+          <div class="bottomleft ornament bigbackground">
+          </div>
+          <div class="bottomright ornament bigbackground">
+          </div>
+          <!-- <div id="footer">
+          <p>Site design from <a href="http://www
+          .dam.brown.edu/people/mumford/">David Mumford</a> and <a href="http://www.columbia.edu/~ak3625/index.shtml">Ashok Litwin-Kumar</a>.
+        </p>
+      </div> -->
     </div>
+  </div>
 </body>
 
 </html>
