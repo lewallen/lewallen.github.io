@@ -149,11 +149,13 @@ blockquote {
     margin-top: -1em;
 }
 ul {
-  margin-top: 0;
-  padding-left: 1em;
-  padding-right: 1em;
+  margin-top: 5px;
+  /* padding-left: 1em; */
+  padding-right: .4em;
   font-size: 15px;
+  text-align: center;
 }
+
 /***** FROM MUMFORD: *****/
 /* PAGE CONTAINER:; */
 .wrapper {
@@ -193,6 +195,7 @@ ul {
   /* font-size: 60%; */
   margin: 0;
 }
+
 /* Added for vertical centering: (05/19/17, http://vanseodesign.com/css/vertical-centering/) */
 #parent {
     padding-top: 19px;
@@ -205,6 +208,7 @@ ul {
     margin-bottom: 0px;
     /* font-size: 100%; */
 }
+
 /* from main.css (alex williams )*/
 /* pub stuff*/
 .pub-list {
@@ -234,8 +238,6 @@ ul {
 }
 /* contact stuff */
 .contact{
-    /*margin-top: -10px*/
-    /* font-size: 20px; */
 }
 .contact:hover{
     /*font-size: 20px;
@@ -246,16 +248,13 @@ header {
     text-align: center;
 }
 header .container {
-    /*padding-top: 100px;
-    padding-bottom: 50px;*/
+
 }
 header img {
-    /*display: block;
-    margin: 0 auto 20px;*/
+    display: block;
+    margin: 20px;
 }
 header .intro-text .name {
-    /*display: block;
-    text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 25px;
     font-weight: 700;
@@ -279,7 +278,6 @@ header .intro-text .name {
 p.small {
     padding-left: 5px;
     padding-top: 5px;
-    /* font-family: Verdana; */
     font-size: 15px;
 }
 h1,
