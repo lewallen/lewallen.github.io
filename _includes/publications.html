@@ -1,19 +1,14 @@
- <!-- Publications Section -->
-    <section id="publications">
-        <!-- <div class="container"> -->
-            <div class="row">                
-                  <!-- <hr> -->
-                    <p class="htitle">Publications
-                    <hr>
-            </div>
-            <div class="row">
-                <ul class="pub-list">
-                {% for paper in site.data.papers %}
-                    {% include citation.html %}
-                {% endfor %}
-                </ul>
-            </div>
-            * Joint first authors <br>
-            ** Authors in alphabetical order
-        <!-- </div> -->
-    </section>
+<!-- Publications Section -->
+<section id="publications">
+  <hr>
+  <p class="htitle">Publications</p>
+  <hr>
+  <ul class="pub-list">
+    {% for paper in site.data.papers %}
+    {% include citation.html %}
+    {% endfor %}
+  </ul>  
+  * Joint first authors
+  <br>
+  ** Authors in alphabetical order
+</section>

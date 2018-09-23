@@ -68,7 +68,7 @@
 .content {
   max-width: 960px;
   background-color: white;
-  padding-top: 1em;
+  /* padding-top: 1em; */
   padding-left: .85em;
   padding-right: .85em;
   padding-bottom: .85em;
@@ -149,11 +149,10 @@ blockquote {
     margin-top: -1em;
 }
 ul {
-  margin-top: 5px;
-  /* padding-left: 1em; */
+  /* margin-top: 5px; */
+  padding-left: 1em;
   padding-right: .4em;
   font-size: 15px;
-  text-align: center;
 }
 
 /***** FROM MUMFORD: *****/
@@ -197,6 +196,12 @@ ul {
 }
 
 /* Added for vertical centering: (05/19/17, http://vanseodesign.com/css/vertical-centering/) */
+.social {
+  margin-top: 100px;
+  padding-left: 1em;
+  /* padding-right: .4em; */
+  font-size: 15px;
+}
 #parent {
     padding-top: 19px;
     /* padding-bottom: 30px; */
@@ -208,12 +213,23 @@ ul {
     margin-bottom: 0px;
     /* font-size: 100%; */
 }
+#childpub {
+    padding-top: -5px;
+    /* padding-bottom: 0px; */
+    margin-bottom: 0px;
+    /* font-size: 100%; */
+}
+#parentpub {
+    /* padding-top: 19px; */
+    /* padding-bottom: 30px; */
+    margin-bottom: 30px;
+}
 
 /* from main.css (alex williams )*/
 /* pub stuff*/
 .pub-list {
     list-style-type: none;
-    /*margin-left: 15px;*/
+    margin-left: -5px;
 }
 .pub-list .author{
     font-size: 80%;
@@ -275,10 +291,11 @@ header .intro-text .name {
 .btn.active {
     outline: 0;
 }
-p.small {
-    padding-left: 5px;
-    padding-top: 5px;
+p.about {
+    /* padding-left: 5px;
+    padding-top: 5px; */
     font-size: 15px;
+    text-align: center;
 }
 h1,
 h2,
@@ -291,13 +308,12 @@ h6 {
     font-weight: 700;
     font-size: 15px;
 }
-.intro-aboutrow {
-  margin-left: 5px;
-  margin-right: 5px;
-}
 p.htitle{
   text-align: center;
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
+}
+#soc {
+  padding-top: 5px;
 }

@@ -21,7 +21,6 @@
       <!-- TOP CONTAINER: -->
       <div id="parent" class="content">
         <div id="child">
-
           <!-- HEADER: -->
           <header>
             <!-- IMAGE OF SAM -->
@@ -31,7 +30,7 @@
               <span class="name">Sam Lewallen</span> <br>
             </div>
             <!-- SOCIAL NETWORK STUFF -->
-            <ul class="list-inline">
+            <ul id="soc" class="list-inline">
               {% for network in site.socialfa %}
               <li>
                 <a href="{{ network.url }}" class="btn-social"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
@@ -45,50 +44,47 @@
             </ul>
             <!-- EMAIL -->
             <script src="/js/mailme.js"></script>
-            <!-- <span class="name" style="direction: rtl; unicode-bidi: bidi-override;">ude [tod] dravrah [ta] nellawels</span> -->
           </header>
-
           <!-- ABOUT -->
           <div class="row">
-            <div class="aboutclass">
-              <br>
-            </div>
           </div>
-          <div class="aboutrow">
-            <hr>
-            <p class="htitle">About
-              <hr>
-              <p class="small">I'm a theoretical neuroscientist, with a background in pure mathematics. I'm currently a <a href="http://cbs.fas.harvard.edu/science/swartz-program">Swartz fellow</a> at Harvard University in the <a href="http://cbs.fas.harvard.edu">Center for Brain Science</a>.
-              </div>
-
-            </div>
-            <!-- end child -->
-          </div>
-          <!-- end parent -->
-
-          <br>
-          <br>
-          <br>
-          <br>
-
-          <!-- PUBLICATIONS: -->
-          <div id="publications" class="content">
-            {% include publications.html %}
-            {% include js.html %}
-          </div>
-
-          <!-- REMAINS OF FOOTER: -->
-          <div class="topleft ornament bigbackground">
-          </div>
-          <div class="topright ornament bigbackground">
-          </div>
-          <div class="bottomleft ornament bigbackground">
-          </div>
-          <div class="bottomright ornament bigbackground">
-          </div>
-
+          <hr>
+          <p class="htitle">About</p>
+          <hr>
+          <p class="about">I'm a theoretical neuroscientist, with a background in pure mathematics. I'm currently a <a href="http://cbs.fas.harvard.edu/science/swartz-program">Swartz fellow</a> at Harvard University in the <a href="http://cbs.fas.harvard.edu">Center for Brain Science</a>.</p>
         </div>
+        <!-- end child -->
       </div>
-    </body>
+      <!-- end parent -->
 
-    </html>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div id="parentpub" class="content">
+        <div id="childpub">
+          <!-- PUBLICATIONS: -->
+          <!-- <div id="publications" class="content"> -->
+          {% include publications.html %}
+          {% include js.html %}
+          </div>
+      </div>
+
+      <!-- REMAINS OF FOOTER: -->
+      <div class="topleft ornament bigbackground">
+      </div>
+      <div class="topright ornament bigbackground">
+      </div>
+      <div class="bottomleft ornament bigbackground">
+      </div>
+      <div class="bottomright ornament bigbackground">
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
+
+<!-- <span class="name" style="direction: rtl; unicode-bidi: bidi-override;">ude [tod] dravrah [ta] nellawels</span> -->
