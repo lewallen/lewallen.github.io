@@ -77,6 +77,20 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
+@media only screen and (max-width: 150px) {
+  .content {
+    max-width: 960px;
+    background-color: white;
+    /* padding-top: 1em; */
+    /* padding-left: .85em;
+    padding-right: .85em;
+    padding-bottom: .85em; */
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
 .content img {
   display: inline;
   max-width: 192px;
@@ -164,7 +178,6 @@ ul {
   position: relative;
   /*overflow: hidden;*/
 }
-
 #outerwrapper {
   padding:0 20px;
   max-width:960px;
@@ -272,7 +285,6 @@ header {
   text-align: center;
 }
 header .container {
-
 }
 header img {
   display: block;
