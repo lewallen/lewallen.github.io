@@ -37,27 +37,27 @@
   color: Black;
 }
 #backtotop {
-   position: fixed;
-   right: 0;
-   bottom: 0;
-   z-index: 1;
-   background: LimeGreen;
-   display: block;
-   text-align: center;
-   font-size: 150%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: LimeGreen;
+  display: block;
+  text-align: center;
+  font-size: 150%;
 }
 #backtotop a,
 #backtotop a:visited {
-   padding-left: 1em;
-   padding-right: 1em;
-   padding-top: 0.25em;
-   padding-bottom: 0.25em;
-   display: block;
-   color: White;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  display: block;
+  color: White;
 }
 #backtotop a:hover,
 #backtotop a:visited:hover {
-   background: OrangeRed;
+  background: OrangeRed;
 }
 .content {
   max-width: 960px;
@@ -118,29 +118,29 @@ body {
 html {
 }
 table {
-    border-collapse: collapse;
-    margin-top: 1em;
-    border-top: 1em;
+  border-collapse: collapse;
+  margin-top: 1em;
+  border-top: 1em;
 }
 table,th,td {
-    /*border: 1px solid #eeeeee;*/
-    border: 1px solid #ECDEDE;
-    text-align: left;
+  /*border: 1px solid #eeeeee;*/
+  border: 1px solid #ECDEDE;
+  text-align: left;
 }
 td {
-    padding-top: 0.4em;
-    padding-bottom: 0.4em;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
 }
 hr {
-    border: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #eeeeee;
+  border: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
 }
 blockquote {
-    margin-top: -1em;
+  margin-top: -1em;
 }
 ul {
   /* margin-top: 5px; */
@@ -158,11 +158,19 @@ ul {
   position: relative;
   /*overflow: hidden;*/
 }
+
 #outerwrapper {
   padding:0 20px;
   max-width:960px;
   min-width:100px;
   margin:20px auto;
+}
+@media only screen and (max-width: 150px) {
+  #outerwrapper {
+    padding:0 20px;
+    /* max-width:100px;     */
+    margin:20px auto;
+  }
 }
 .bigbackground {
   background-attachment: fixed;
@@ -170,10 +178,10 @@ ul {
   background-size: cover;
 }
 /* .ornament {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
+position: absolute;
+width: 50px;
+height: 50px;
+border-radius: 25px;
 } */
 .topleft, .topright {top:-24px}
 .topleft, .bottomleft {left:-24px;}
@@ -197,99 +205,99 @@ ul {
   font-size: 15px;
 }
 #parent {
-    padding-top: 19px;
-    /* padding-bottom: 30px; */
-    margin-bottom: 30px;
+  padding-top: 19px;
+  /* padding-bottom: 30px; */
+  margin-bottom: 30px;
 }
 #child {
-    padding-top: 22px;
-    /* padding-bottom: 0px; */
-    margin-bottom: 0px;
-    /* font-size: 100%; */
+  padding-top: 22px;
+  /* padding-bottom: 0px; */
+  margin-bottom: 0px;
+  /* font-size: 100%; */
 }
 #childpub {
-    padding-top: -5px;
-    /* padding-bottom: 0px; */
-    margin-bottom: 0px;
-    /* font-size: 100%; */
+  padding-top: -5px;
+  /* padding-bottom: 0px; */
+  margin-bottom: 0px;
+  /* font-size: 100%; */
 }
 #parentpub {
-    /* padding-top: 19px; */
-    /* padding-bottom: 30px; */
-    margin-bottom: 30px;
+  /* padding-top: 19px; */
+  /* padding-bottom: 30px; */
+  margin-bottom: 30px;
 }
 
 /* from main.css (alex williams )*/
 /* pub stuff*/
 .pub-list {
-    list-style-type: none;
-    margin-left: -5px;
+  list-style-type: none;
+  margin-left: -5px;
 }
 .pub-list .author{
-    font-size: 80%;
-    color: #CC5757;
-    padding-bottom: 6px;
+  font-size: 80%;
+  color: #CC5757;
+  padding-bottom: 6px;
 }
 .pub-list .paper-links{
-    color: #CC5757;
-    padding-bottom: 23px;
+  color: #CC5757;
+  padding-bottom: 23px;
 }
 .pub-list .title{
-    font-size: 15px;
-    font-family: Verdana;
+  font-size: 15px;
+  font-family: Verdana;
 }
 /* button stuff */
 .btn-small{
-    color: #2C3E50;
+  color: #2C3E50;
 }
 .btn-small:hover{
-    color:red;
-    transition: all .3s ease-in-out;
+  color:red;
+  transition: all .3s ease-in-out;
 }
 /* contact stuff */
 .contact{
 }
 .contact:hover{
-    /*font-size: 20px;
-    transition: all .3s ease-in-out;*/
+  /*font-size: 20px;
+  transition: all .3s ease-in-out;*/
 }
 /* header stuff */
 header {
-    text-align: center;
+  text-align: center;
 }
 header .container {
 
 }
 header img {
-    display: block;
-    margin: 20px;
+  display: block;
+  margin: 20px;
 }
 header .intro-text .name {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 25px;
-    font-weight: 700;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 25px;
+  font-weight: 700;
 }
 /* social buttons */
 .btn-social {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #2C3E50;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 20px;
-    line-height: 45px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #2C3E50;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
 }
 .btn:focus,
 .btn:active,
 .btn.active {
-    outline: 0;
+  outline: 0;
 }
 p.about {
-    /* padding-left: 5px;
-    padding-top: 5px; */
-    font-size: 15px;
-    text-align: center;
+  /* padding-left: 5px;
+  padding-top: 5px; */
+  font-size: 15px;
+  text-align: center;
 }
 h1,
 h2,
@@ -297,10 +305,10 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    font-size: 15px;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 15px;
 }
 p.htitle{
   text-align: center;
