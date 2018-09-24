@@ -23,6 +23,18 @@
   border-right: 1px solid black;
   border-top: 1px solid black;
 }
+@media only screen and (max-width:350px) {
+  #topbar {
+    top: inherit;
+    min-height: 2.2em;
+    line-height: 2.2em;
+    background: rgba(47, 204, 50, 0.6);
+    font-family: Courier,serif;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+  }
+}
 .navbox {
   float: left;
   width: 20%;
@@ -67,6 +79,7 @@
 }
 .content {
   max-width: 960px;
+  min-width: 220px;
   background-color: white;
   /* padding-top: 1em; */
   padding-left: .85em;
@@ -76,20 +89,6 @@
   border-right: 1px solid black;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-}
-@media only screen and (min-width:320px) {
-  .content {
-    max-width: 960px;
-    background-color: white;
-    /* padding-top: 1em; */
-    /* padding-left: .85em;
-    padding-right: .85em;
-    padding-bottom: .85em; */
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-  }
 }
 .content img {
   display: inline;
@@ -163,49 +162,49 @@ blockquote {
   margin-top: -1em;
 }
 ul {
-  /* margin-top: 5px; */
   padding-left: 1em;
   padding-right: .4em;
   font-size: 15px;
 }
 
 /***** FROM MUMFORD: *****/
-/* PAGE CONTAINER:; */
+
 .wrapper {
   padding: 35px 40px;
   background-color: rgba(255,255,255,0);
-  /*background-color: rgba(205, 126, 188, 0.6);*/
   position: relative;
-  /*overflow: hidden;*/
 }
+/* #outerwrapper {
+  padding:0 20px;
+  max-width:960px;
+  min-width:100px;
+  margin:20px auto;
+} */
+
 #outerwrapper {
   padding:0 20px;
   max-width:960px;
   min-width:100px;
   margin:20px auto;
 }
-@media only screen and (min-width:320px) {
-  #outerwrapper {
-    padding:0 20px;
-    /* max-width:100px;     */
-    margin:20px auto;
+
+@media only screen and (max-width:350px) {
+  .wrapper {
+    padding: 0px 0px;
+    background-color: rgba(255,255,255,0);
+    position: relative;
   }
 }
+
 .bigbackground {
   background-attachment: fixed;
   background-color: transparent;
   background-size: cover;
 }
-/* .ornament {
-position: absolute;
-width: 50px;
-height: 50px;
-border-radius: 25px;
-} */
-.topleft, .topright {top:-24px}
+/* .topleft, .topright {top:-24px}
 .topleft, .bottomleft {left:-24px;}
 .topright, .bottomright {right:-24px;}
-.bottomleft, .bottomright {bottom:-24px;}
+.bottomleft, .bottomright {bottom:-24px;} */
 #footer {
   background-color: white;
   border: 1px solid black;
