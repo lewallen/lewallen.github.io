@@ -2,7 +2,10 @@
 <html lang="en">
 
 <!-- HEAD -->
-{% include head.html %}
+<head>
+  {% include head.html %}
+  {% seo %}
+</head>
 
 <body class="bigbackground">
   <div id="outerwrapper">
@@ -68,7 +71,7 @@
           <!-- <div id="publications" class="content"> -->
           {% include publications.html %}
           {% include js.html %}
-          </div>
+        </div>
       </div>
 
       <!-- REMAINS OF FOOTER: -->
