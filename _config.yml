@@ -1,8 +1,8 @@
 # Site settings
 title: Sam Lewallen
-email: your-email@domain.com
-url: https://lewallen.github.io/
-description: "Sam Lewallen's research webpage."
+email: slewallen@fas.harvard.edu
+url: lewallen.github.io
+description: "Sam Lewallen's research webpage"
 github_username: lewallen
 meta_author:
 
@@ -61,4 +61,4 @@ permalink: pretty
 
 # Plugins
 plugins:
-  - jekyll-seo-tag
+  - jekyll-seo-tag  

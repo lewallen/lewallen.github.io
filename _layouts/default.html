@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!-- HEAD -->
-<head>  
+<head>
   {% include head.html %}
 </head>
 
@@ -23,14 +23,18 @@
       <!-- TOP CONTAINER: -->
       <div id="parent" class="content">
         <div id="child">
+
           <!-- HEADER: -->
           <header>
+
             <!-- IMAGE OF SAM -->
-            <img height=250 src="img/LewallenSam.jpg" alt="">
+            <img height=250 src="img/LewallenSam.jpg" alt="" title="Sam Lewallen">
+
             <!-- NAME OF SAM -->
             <div class="intro-text">
               <span class="name">Sam Lewallen</span> <br>
             </div>
+
             <!-- SOCIAL NETWORK STUFF -->
             <ul id="soc" class="list-inline">
               {% for network in site.socialfa %}
@@ -44,9 +48,12 @@
               </li>
               {% endfor %}
             </ul>
+
             <!-- EMAIL -->
-            <script src="/js/mailme.js"></script>
+            <a href="mailto:{{site.email}}">{{site.email}}</a>
           </header>
+          <!-- END HEADER -->
+
           <!-- ABOUT -->
           <div class="row">
           </div>
@@ -67,26 +74,24 @@
       <div id="parentpub" class="content">
         <div id="childpub">
           <!-- PUBLICATIONS: -->
-          <!-- <div id="publications" class="content"> -->
           {% include publications.html %}
-          {% include js.html %}
         </div>
       </div>
 
       <!-- REMAINS OF FOOTER: -->
-      <div class="topleft ornament bigbackground">
-      </div>
-      <div class="topright ornament bigbackground">
-      </div>
-      <div class="bottomleft ornament bigbackground">
-      </div>
-      <div class="bottomright ornament bigbackground">
-      </div>
+      <footer>
+        <div class="topleft ornament bigbackground">
+        </div>
+        <div class="topright ornament bigbackground">
+        </div>
+        <div class="bottomleft ornament bigbackground">
+        </div>
+        <div class="bottomright ornament bigbackground">
+        </div>
+      </footer>
 
     </div>
   </div>
 </body>
 
 </html>
-
-<!-- <span class="name" style="direction: rtl; unicode-bidi: bidi-override;">ude [tod] dravrah [ta] nellawels</span> -->
