@@ -61,4 +61,4 @@ permalink: pretty
 
 # Plugins
 plugins:
-  - jekyll-seo-tag  
+  - jekyll-seo-tag
