@@ -3,8 +3,6 @@ layout: default
 title: References
 ---
 
-<br/>
-
 ## References
 {: .htitle }
 ---
