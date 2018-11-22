@@ -1,3 +1,12 @@
+---
+fsize1: 13px
+fsize2: 18px
+fsize3: 25px
+fsize4: 15px
+font1: Courier,serif
+pmargin: -10px
+---
+
 {% include css/bootstrap.min.css %}
 
 /***** from ashok: *****/
