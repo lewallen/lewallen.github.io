@@ -1,77 +1,27 @@
 <!doctype html>
 <html lang="en">
 
-<!-- HEAD -->
-<head>
-  {% include head.html %}
-</head>
+<!-- head -->
+{% include head.html %}
+<!-- end head -->
 
+<!-- body -->
 <body class="bigbackground">
   <div id="outerwrapper">
     <div class="wrapper">
 
-      <!-- TOPBAR/NAVBAR: -->
-      <div id="topbar">
-        <div class="navbox"><a href="https://lewallen.github.io">home</a>
-        </div>
-        <div class="navbox"><a href="http://neurowiki.shoutwiki.com/wiki/Main_Page">wiki</a>
-        </div>
-        <div class="navbox"><a href="https://throughthetulgeywood.wordpress.com">blog</a>
-        </div>
-        <div class="navbox"><a href="/compjclub.html">journal club</a>
-        </div>
-      </div>
+      <!-- navbar -->
+      {% include nav.html %}
+      <!-- end navbar -->
 
-      <!-- TOP CONTAINER: -->
+      <!-- header -->
       <div id="parent" class="content">
         <div id="child">
-
-          <!-- HEADER: -->
-          <header>
-
-            <!-- IMAGE OF SAM -->
-            <img height=250 src="img/LewallenSam.jpg" alt="" title="Sam Lewallen">
-
-            <!-- NAME OF SAM -->
-            <div class="intro-text">
-              <span class="name">Sam Lewallen</span> <br>
-            </div>
-
-            <!-- SOCIAL NETWORK STUFF -->
-            <ul id="soc" class="list-inline">
-              {% for network in site.socialfa %}
-              <li>
-                <a href="{{ network.url }}" class="btn-social" target="_blank"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-              </li>
-              {% endfor %}
-              {% for network in site.socialai %}
-              <li>
-                <a href="{{ network.url }}" class="btn-social" target="_blank"><i class="ai ai-fw ai-{{ network.title }}"></i></a>
-              </li>
-              {% endfor %}
-            </ul>
-
-            <!-- EMAIL -->
-            <a href="mailto:{{site.email}}">{{site.email}}</a>
-
-            <br>
-            <br>
-              Click <a href="/compjclub.html">HERE</a><br>for MIT/Harvard computational<br>neuroscience journal club
-
-          </header>
-          <!-- END HEADER -->
-
-          <!-- ABOUT -->
-          <div class="row">
-          </div>
-          <hr>
-          <p class="htitle">About</p>
-          <hr>
-          <p class="about">I'm a theoretical neuroscientist, with a background in pure mathematics. I'm currently a <a href="http://cbs.fas.harvard.edu/science/swartz-program">Swartz fellow</a> at Harvard University in the <a href="http://cbs.fas.harvard.edu">Center for Brain Science</a>.</p>
+          {% include header.html %}
+          <br>
         </div>
-        <!-- end child -->
       </div>
-      <!-- end parent -->
+      <!-- end header -->
 
       <br>
       <br>
@@ -80,22 +30,15 @@
 
       <div id="parentpub" class="content">
         <div id="childpub">
-          <!-- PUBLICATIONS: -->
-          {% include publications.html %}
+          <br>
+          {{ content }}
+          <br>
         </div>
       </div>
 
-      <!-- REMAINS OF FOOTER: -->
-      <footer>
-        <div class="topleft ornament bigbackground">
-        </div>
-        <div class="topright ornament bigbackground">
-        </div>
-        <div class="bottomleft ornament bigbackground">
-        </div>
-        <div class="bottomright ornament bigbackground">
-        </div>
-      </footer>
+      <!-- footer -->
+      {% include footer.html %}
+      <!-- end footer -->
 
     </div>
   </div>
