@@ -8,7 +8,7 @@ title: References
 ## References
 {: .htitle }
 ---
-From time to time I come across a compelling expository article which provides some useful insight into a particular topic. I've collected several of these below so that I can refer back to them easily. <br/>
+From time to time I come across a compelling expository article which provides some useful insight into a particular topic. I've collected several of these below so that I can refer to them easily. <br/>
 
 <br/>
 ### Math
