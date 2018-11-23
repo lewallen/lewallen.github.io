@@ -35,6 +35,9 @@ margin: 0;
 padding: 0;
 vertical-align: baseline;
 }
+iframe {
+  border: 1px black solid;
+}
 body {
 line-height: 1;
 overflow: scroll;
