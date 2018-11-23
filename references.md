@@ -6,7 +6,7 @@ title: References
 ## References
 {: .htitle }
 ---
-From time to time I come across a compelling expository article providing useful insight into a particular topic. I've collected some of these below so I can refer to them easily.
+From time to time I come across a compelling expository article which provides useful insight into a particular topic. Some of these are collected below so I can refer to them easily.
 <br/>
 <br/>
 
