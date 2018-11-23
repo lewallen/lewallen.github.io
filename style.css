@@ -15,7 +15,7 @@ pmargin: -10px
 @font-face { font-family: firasans; src: url('../fonts/firasans/FiraSans-Regular.ttf'); }
 @font-face { font-family: firasansEm; src: url('../fonts/firasans/FiraSans-BoldItalic.ttf'); }
 
-/* defaults */
+/* default element styles */
 a:link, a:visited {
   text-decoration: none;
 }
@@ -346,7 +346,7 @@ h2.htitle {
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
-  margin-top: -11px;
+  margin-top: -5px;
   margin-bottom: -14px;
   font-size: {{ page.fsize2 }};
 }
