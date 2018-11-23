@@ -5,8 +5,8 @@
     <description>Sam Lewallen's research webpage</description>
     <link>http://localhost:4000/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Nov 2018 15:53:56 -0500</pubDate>
-    <lastBuildDate>Thu, 22 Nov 2018 15:53:56 -0500</lastBuildDate>
+    <pubDate>Fri, 23 Nov 2018 10:45:35 -0500</pubDate>
+    <lastBuildDate>Fri, 23 Nov 2018 10:45:35 -0500</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
   </channel>

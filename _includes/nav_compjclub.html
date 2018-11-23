@@ -1,8 +1,14 @@
-<div id="topbar">
+<div id="access" role="navigation">
 
-  {% for page in site.data.pages %}
-  <div class="navbox"><a href="{{ page.url }}">{{ page.name }}</a>
+  <div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+  <div class="menu-header">
+    <ul id="menu-main_menu" class="menu">
+      <li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item menu-item-13"><a href="/compjclub.html">Overview</a></li>
+      <li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="/compjclub_past_meetings">Past meetings</a></li>
+      <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="/compjclub_suggested_reading">Suggested papers</a></li>
+    </ul>
+
   </div>
-  {% endfor %}
 
-</div>
+</div><!-- #access -->
