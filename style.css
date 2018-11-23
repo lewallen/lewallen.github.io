@@ -43,6 +43,7 @@ margin: 0;
 line-height: 1.4;
 /* font-family: Verdana; */
 font-family: "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+overflow: scroll;
 font-size: {{ page.fsize1 }};
 }
 p {
@@ -258,7 +259,6 @@ margin-bottom: 0px;
 #contextbox {
 padding-top: 10px;
 margin-bottom: 30px;
-min-height: 700px;
 padding-left: 15px;
 padding-right: 15px;
 }
