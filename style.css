@@ -7,9 +7,7 @@ font1: Courier,serif
 pmargin: -10px
 ---
 
-{% include css/bootstrap.min.css %}
-
-/***** from ashok: *****/
+/***** fonts from ashok: *****/
 @font-face { font-family: LibreFranklin; src: url('../fonts/librefranklin/LibreFranklin-Medium.ttf'); }
 @font-face { font-family: LibreFranklinEm; src: url('../fonts/librefranklin/LibreFranklin-BoldItalic.ttf'); }
 @font-face { font-family: firasans; src: url('../fonts/firasans/FiraSans-Regular.ttf'); }
