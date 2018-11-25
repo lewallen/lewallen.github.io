@@ -4,9 +4,11 @@
     {% endif %}
     {{ paper.title }}
 </li>
+{% if paper.arxiv %}
 <li class="author">
     {{ paper.author }} ({{ paper.year }}). <em>{{ paper.journal }}</em>. {{ paper.pg }}
 </li>
+{% endif %}
 <ul class="list-inline">
     {% if paper.arxiv %}
     <li class="paper-links">
