@@ -19,8 +19,31 @@
 %\usepackage[T1]{fontenc}
 %\usepackage[sc,osf]{mathpazo}
 
-% Set your name here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Set your information here
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% name
 \def\name{Sam Lewallen}
+% email
+\def\email{sam.lewallen@gmail.com}
+% email
+\def\url{https://lewallen.github.io/}
+% address
+\def\address{
+Center for Brain Science \\
+Harvard University \\
+52 Oxford St \\
+Cambridge, MA 02138  
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Line skip macros
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\lsk{\\[.2em]}
+\def\lskk{\\[.3em]}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 % Replace this with a link to your CV if you like, or set it empty
 % (as in \def\footerlink{}) to remove the link in the footer:
@@ -78,6 +101,8 @@
 \newcommand{\urltilde}{\kern -.15em\lower .7ex\hbox{~}\kern .04em}
 % \renewcommand{\baselinestretch}{1}
 
+\def\tightlist{}
+
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PERSONAL INFO:
@@ -86,68 +111,84 @@
 {\huge \name}
 \hfill% move it to the right
 \begin{tabular}[t]{l@{}}
-\textit{Jan. 1, 2017}
+\textit{\today}
 \end{tabular}
 \vspace{0.4in}
 
 \begin{minipage}{0.45\linewidth}
-  Office 184F \\
-  \href{http://pni.princeton.edu/}{Princeton Neuroscience Institute} \\
-  Washington Road \\
-  Princeton, NJ 08544
+\address
 \end{minipage}
 \begin{minipage}{0.45\linewidth}
   \begin{tabular}{ll}
-    Email: & \href{mailto:lewallen@princeton.edu}{\tt lewallen@princeton.edu} \\
-    Homepage: & \href{http://www.princeton.edu/~lewallen}{\tt http://www.princeton.edu/\urltilda lewallen} \\
+    Email: & \href{mailto:\email}{\tt \email} \\
+    Homepage: & \href{\url}{\tt \url} \\
   \end{tabular}
 \end{minipage}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Education and employment}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \begin{itemize}
+\item \textbf{Swartz Fellow} \lsk
+Center for Brain Science, Harvard University \lsk
+\textit{2018 - Present} \\
 
-\item \textbf{Postdoctoral Research Associate}, Princeton Neuroscience Institute
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item \textbf{Postdoctoral Research Fellow} \lsk
+Princeton Neuroscience Institute \lsk
+Advisor: David Tank \lsk
+\textit{2014 - 2018} \\
 
-\textit{July 2014 - Present}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item \textbf{Methods in Computational Neuroscience summer school} \lsk
+MBL, Woods Hole, MA \lsk
+\textit{2013} \\
 
-Advisor: David Tank \vspace{0.15in}
-
-\item \textbf{Methods in Computational Neuroscience (summer course)}, MBL, Woods Hole, MA
-
-\textit{August 2013}  \vspace{0.15in}
-
-\item \textbf{Ph.D., Mathematics}, Princeton University
-
-\textit{September 2008 - May 2014}
-
-Advisor: Zolt\'{a}n Szab\'{o}
-
-Thesis title: ``Floerg\aa sbord.'' (General subject matter: Low-dimensional topology, topological quantum field theory)   \vspace{0.15in}
-
-\item \textbf{B.A.  Mathematics,} Harvard University
-  
-\textit{September 2004 - June 2008}
-  
-Graduated with Highest Honors
-  
-\end{itemize}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item \textbf{Ph.D., Mathematics} \lsk
+Princeton University \lsk
+Advisor: Zolt\'{a}n Szab\'{o} \lsk
+Thesis title: \textit{Floerg\aa sbord}. (General subject matter: Low-dimensional topology, topological quantum field theory) \lsk
+\textit{2008 - 2014} \\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item \textbf{B.A., Mathematics} \lsk
+Harvard University \lsk
+Graduated with Highest Honors \lsk
+\textit{2004 - 2008}
+  \end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Publications}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \begin{itemize}
 
-\item Yoon, Kijung\footnote{\label{note1}Joint first authors.}, \textbf{Sam Lewallen}$^{1}$, David Tank, and Ila Fiete. ``Grid Cell Responses in 1D Environments Assessed as Slices through a 2D Lattice.'' \textit{Neuron} no. 89.5 (2016): 1086-1099 % \vspace{0.15in}
+\item Probing variability in a cognitive map using manifold inference from
+neural dynamics. \lsk
+Ryan J Low*, \textbf{Sam Lewallen}*, Dmitriy Aronov, Rhino Nevers, David W Tank
+(2018). \emph{bioRxiv}. \\
 
-\item Joshua Evan Greene, \textbf{Sam Lewallen}, and Faramarz Vafaee\footnote{Authors in alphabetical order.}. ``(1,1) L-space knots.'' \textit{Compositio Mathematica}, to appear (2013, submitted 2016)
+\item A map-like micro-organization of grid cells in the medial entorhinal
+cortex. \lsk
+Yi Gu, \textbf{Sam Lewallen}, Amina A Kinkhabwala, Cristina Domnisoru, Kijung Yoon, Jeffrey L Gauthier, Ila R Fiete, David W Tank (2018). \emph{Cell}. \\
 
-\item Levine, Adam Simon, and \textbf{Sam Lewallen}$^{2}$. ``Strong L-spaces and left-orderability.'' \textit{Mathematical Research Letters} 19, no. 6 (2012).
+\item Grid cell responses in 1D environments assessed as slices through a 2D
+lattice. \lsk
+KiJung Yoon*, \textbf{Sam Lewallen}*, Amina A Kinkhabwala, David W Tank, Ila R
+Fiete (2016). \emph{Neuron}. \\
 
-\item Burak, Yoram, \textbf{Sam Lewallen}, and Haim Sompolinsky. ``Stimulus-dependent correlations in threshold- crossing spiking neurons.'' \textit{Neural computation} 21, no. 8 (2009): 2269-2308.
+\item Stimulus-dependent correlations in threshold-crossing spiking neurons.  \lsk
+Yoram Burak, \textbf{Sam Lewallen}, Haim Sompolinsky (2009). \emph{Neural
+Computation}. \\
+
+\item (1,1) L-space knots. \lsk
+Joshua Evan Greene, \textbf{Sam Lewallen}, Faramarz Vafaee** (2018).
+\emph{Compositio Mathematica}. \\
+
+\item Strong L-spaces and left orderability. \lsk
+Adam Simon Levine, \textbf{Sam Lewallen}** (2012). \emph{Mathematical Research
+Letters}. \\
+
+$*$ Joint first authors \lsk
+$**$ Authors in alphabetical order
 
 \end{itemize}
 
@@ -174,34 +215,6 @@ Graduated with Highest Honors
 \item Undergraduate research assistant with  Maria Geffen and Marcello Magnasco, Rockefeller University
 
 \textit{Summer, 2006}
-
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Invited/external talks}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{itemize}
-
-\item Swartz Meeting, University of Washington, Summer 2014
-%\item UT Austin, Spring 2013, Fiete group meeting
-\item Harvard University, Spring 2013, Neurolunch seminar
-\item UC Davis, Spring 2013, computational neuroscience seminar
-\item Brandeis University, Fall 2012, Topology seminar
-\item UCLA, Spring 2011, Topology seminar
-\item Caltech, Spring 2011, Topology seminar
-\item Michigan State Unversity, Fall 2010, Topology seminar
-\item Indiana University, Bloomington, Fall 2010, Topology seminar
-\item MSRI, Berkeley, Spring 2009, Knot homologies program seminar
-
-\end{itemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Computer competencies}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{itemize}
-\item MATLAB, Python, Mathematica, C++
 
 \end{itemize}
 
@@ -242,10 +255,38 @@ Working on grid cell modeling and data analysis with the Tank lab at Princeton U
 
 
 
+\item Swartz Meeting, University of Washington, Summer 2014
+%\item UT Austin, Spring 2013, Fiete group meeting
+\item Harvard University, Spring 2013, Neurolunch seminar
+\item UC Davis, Spring 2013, computational neuroscience seminar
+\item Brandeis University, Fall 2012, Topology seminar
+\item UCLA, Spring 2011, Topology seminar
+\item Caltech, Spring 2011, Topology seminar
+\item Michigan State Unversity, Fall 2010, Topology seminar
+\item Indiana University, Bloomington, Fall 2010, Topology seminar
+\item MSRI, Berkeley, Spring 2009, Knot homologies program seminar
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Computer competencies}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{itemize}
+\item MATLAB, Python, Mathematica, C++
+
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Invited/external talks}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+\item To be added.
+
+\end{itemize}
 
 
 
