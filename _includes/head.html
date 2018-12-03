@@ -1,8 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page.title }}</title>
-{% if page.title == "Sam Lewallen" %}<meta name="description" content="{{ site.description }}">{% endif %}
 <link rel="shortcut icon" href="/favicon.ico">
 <style>
   .bigbackground {
@@ -24,8 +22,7 @@
 <link rel="stylesheet" href="style.css">
 
 <!-- Google verification -->
-{% if site.google_verify %}
-<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 
 <!-- Custom Fonts -->
 <link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css">
