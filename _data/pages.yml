@@ -1,10 +1,10 @@
 - name: home
   url: /
+- name: blog
+  url: /blog.html
 - name: references
   url: /references.html
 - name: wiki
   url: http://neurowiki.shoutwiki.com/wiki/Main_Page
-- name: blog
-  url: https://throughthetulgeywood.wordpress.com
 - name: journal club
   url: https://compneurojc.github.io

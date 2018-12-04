@@ -7,6 +7,8 @@ font1: Courier,serif
 pmargin: -10px
 myGreen: rgba(47, 204, 50, 0.45)
 myGreenTransparent: rgba(47, 204, 50, 0.8)
+maximgsz: 230px
+contentboxpaddingLR: 18px
 ---
 
 /***** fonts from ashok: *****/
@@ -168,11 +170,6 @@ header {
 text-align: center;
 margin-top: -1em;
 }
-header img {
-display: block;
-margin: 20px;
-padding-bottom: 21px;
-}
 header .name {
 font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 font-weight: 700;
@@ -203,11 +200,11 @@ border-bottom: 1px solid black;
 }
 .content img {
 display: inline;
-max-width: 192px;
-max-height: 192px;
-margin-top: 10px;
-margin-bottom: 25px;
 float: left;
+margin-right: 15%;
+transform: translate(40%, 10%);
+max-width: {{page.maximgsz}};
+max-height: {{page.maximgsz}};
 }
 .content a { color: BlueViolet; }
 .content a:hover, a:visited:hover { color: DarkOrange; }
@@ -273,8 +270,8 @@ margin-bottom: 0px;
 #contextbox {
 padding-top: 10px;
 margin-bottom: 30px;
-padding-left: 15px;
-padding-right: 15px;
+padding-left: {{ page.contentboxpaddingLR }};
+padding-right: {{ page.contentboxpaddingLR }};
 }
 
 /* publications */ /* from main.css (alex williams )*/
@@ -296,7 +293,6 @@ margin-top: {{ page.pmargin }};
 font-family: Verdana;
 font-size: {{ page.fsize1 }};
 }
-
 /* buttons */
 .btn-small{
 color: #2C3E50;
@@ -365,5 +361,34 @@ h3.htitle {
   margin-top: -11px;
   margin-bottom: -14px;
   padding-left: 10px;
+  padding-top: 20px;
+  font-size: {{ page.fsize4 }};
+}
+.postmd ol {
+margin: 0;
+margin-bottom: 10px;
+}
+ol.postmd {
+margin: 0;
+margin-bottom: 10px;
+}
+.postmd h2 {
+  text-align: left;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  margin-top: -5px;
+  margin-bottom: -14px;
+  font-size: {{ page.fsize2 }};
+}
+.postmd h3 {
+  text-align: left;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  margin-top: -11px;
+  margin-bottom: -14px;
+  padding-left: 10px;
+  padding-top: 20px;
   font-size: {{ page.fsize4 }};
 }
