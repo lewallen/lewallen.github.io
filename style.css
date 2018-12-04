@@ -5,6 +5,8 @@ fsize3: 25px
 fsize4: 15px
 font1: Courier,serif
 pmargin: -10px
+myGreen: rgba(47, 204, 50, 0.45)
+myGreenTransparent: rgba(47, 204, 50, 0.8)
 ---
 
 /***** fonts from ashok: *****/
@@ -91,22 +93,22 @@ ol {
 #topbar {
 min-height: 2.2em;
 line-height: 2.2em;
-background: rgba(47, 204, 50, 0.6);
 padding-left: .5em;
 border-left: 1px solid black;
 border-right: 1px solid black;
 border-top: 1px solid black;
 font-family: {{ page.font1 }};
+background: {{page.myGreenTransparent}};
 }
 @media only screen and (max-width:350px) {
 #topbar {
 min-height: 2.2em;
 line-height: 2.2em;
-background: rgba(47, 204, 50, 0.6);
 border-left: 1px solid black;
 border-right: 1px solid black;
 border-top: 1px solid black;
 font-family: {{ page.font1 }};
+background: {{page.myGreenTransparent}};
 }
 }
 
@@ -119,15 +121,22 @@ background-color: transparent;
 }
 .navbox a,
 .navbox a:visited {
-padding-left: .5em;
-padding-right: .5em;
+padding-left: .3em;
+padding-right: .3em;
+padding-top: 0em;
+padding-bottom: 0em;
 color: White;
-font-size: 90%;
+font-size: 100%;
+/* background: inherit; */
+/* background-color: transparent; */
+/* background-color: {{page.myGreen}}; */
+font-weight: bold;
 }
 .navbox a:hover,
 .navbox a:visited:hover {
 background: White;
 color: Black;
+font-weight: normal;
 }
 
 /* backtotop */
