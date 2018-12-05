@@ -1,8 +1,8 @@
 # Site settings
-title: Sam Lewallen's research webpage
-email: sam.lewallen@gmail.com
+title: Sam Lewallen
+email: slewallen@fas.harvard.edu
 url: https://lewallen.github.io/
-description: This is the research webpage of Sam Lewallen, postdoctoral fellow in neuroscience at Harvard University.
+description: This is the research webpage of Sam Lewallen. I am a postdoctoral fellow in neuroscience at Harvard University.
 github_username: lewallen
 meta_author:
 
@@ -63,6 +63,5 @@ markdown: kramdown
 # permalink: pretty
 
 # Plugins
-plugins:
-  - jekyll-seo-tag
+plugins:  
   - jekyll-sitemap
