@@ -2,29 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sam Lewallen</title>
-    <description>This is the research webpage of Sam Lewallen. I am a postdoctoral fellow in neuroscience at Harvard University.</description>
+    <description>Research webpage of Sam Lewallen</description>
     <link>http://localhost:4000/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 04 Dec 2018 20:05:04 -0500</pubDate>
-    <lastBuildDate>Tue, 04 Dec 2018 20:05:04 -0500</lastBuildDate>
+    <pubDate>Tue, 11 Dec 2018 20:22:29 -0500</pubDate>
+    <lastBuildDate>Tue, 11 Dec 2018 20:22:29 -0500</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
-        <title>Introduction to Pontryagin Duality</title>
+        <title>Pontryagin Duality</title>
         <description></description>
         <pubDate>Mon, 03 Dec 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2018/12/03/PontryaginDuality.html</link>
         <guid isPermaLink="true">http://localhost:4000/2018/12/03/PontryaginDuality.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Introduction to Pontryagin Duality</title>
-        <description></description>
-        <pubDate>Sat, 03 Nov 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2018/11/03/PontryaginDualityCopy.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/11/03/PontryaginDualityCopy.html</guid>
         
         
       </item>

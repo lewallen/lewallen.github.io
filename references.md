@@ -20,5 +20,3 @@ From time to time I come across a compelling expository article which provides u
 ### Neuroscience
 {: .htitle }
 ---
-
-David L.
