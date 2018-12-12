@@ -14,8 +14,11 @@ From time to time I come across a compelling expository article which provides u
 1. [The impact of Thom's cobordism theory](http://www.ams.org/journals/bull/2004-41-03/S0273-0979-04-01022-5/S0273-0979-04-01022-5.pdf), Atiyah.
 2. [Morse theory indomitable](http://www.numdam.org/article/PMIHES_1988__68__99_0.pdf), Bott.
 3. [A mad day's work: from Grothendieck to Connes and Kontsevich The evolution of concepts of space and symmetry](http://www.ams.org/journals/bull/2001-38-04/S0273-0979-01-00913-2/S0273-0979-01-00913-2.pdf), Cartier.
+3. [High-Dimensional Data Analysis: The Curses and Blessings of Dimensionality](/pdf/High-Dimensional Data Analysis.pdf), Donoho.
 {: .postmd}
 
 ### Neuroscience
 {: .htitle }
 ---
+
+David L.

@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Introduction to Pontryagin Duality"
+title:  "Pontryagin Duality"
 ---
 
-Test
 ### Section 2
 ---
 
