@@ -6,7 +6,7 @@ title: References
 ## Reviews
 {: .htitle }
 ---
-Some review papers that I've found interesting, useful, or would like to refer to in the future.
+Review papers that I've found interesting, useful, or would like to refer to in the future.
 
 ### Neuroscience
 {: .htitle }
