@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pontryagin Duality"
+title:  "Pontryagin Duality (Test!)"
 ---
 
 ### Section 2
