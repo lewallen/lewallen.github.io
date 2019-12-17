@@ -4,6 +4,7 @@ fsize2: 18px
 fsize3: 25px
 fsize4: 15px
 font1: Courier,serif
+font2: Times,serif
 pmargin: -10px
 myGreen: rgba(47, 204, 50, 0.45)
 myGreenTransparent: rgba(47, 204, 50, 0.8)
@@ -102,17 +103,17 @@ border-top: 1px solid black;
 font-family: {{ page.font1 }};
 background: {{page.myGreenTransparent}};
 }
-@media only screen and (max-width:350px) {
-#topbar {
-min-height: 2.2em;
-line-height: 2.2em;
-border-left: 1px solid black;
-border-right: 1px solid black;
-border-top: 1px solid black;
-font-family: {{ page.font1 }};
-background: {{page.myGreenTransparent}};
-}
-}
+/* @media only screen and (max-width:350px) {
+  #topbar {
+    min-height: 2.2em;
+    line-height: 2.2em;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    font-family: {{ page.font2 }};
+    background: {{page.myGreenTransparent}};
+  }
+} */
 
 /* navbox */
 .navbox {
@@ -175,6 +176,24 @@ font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 font-weight: 700;
 font-size: {{ page.fsize3 }};
 }
+@media only screen and (max-width:700px) {
+  header .name {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 10vw;
+  }
+}
+img {
+  height: 250px;
+}
+@media only screen and (max-width:700px) {
+  img {
+    /* height: 0px; */
+    width: 20vw;
+    height: 20vw;
+  }
+}
 /* email */
 header .email {
 /* padding-top: 10px; */
@@ -227,13 +246,13 @@ max-width:960px;
 min-width:100px;
 margin:20px auto;
 }
-@media only screen and (max-width:350px) {
-.wrapper {
-padding: 0px 0px;
-background-color: rgba(255,255,255,0);
-position: relative;
-}
-}
+/* @media only screen and (max-width:350px) {
+  .wrapper {
+    padding: 0px 0px;
+    background-color: rgba(255,255,255,0);
+    position: relative;
+  }
+} */
 .bigbackground {
 background-attachment: fixed;
 background-color: transparent;
